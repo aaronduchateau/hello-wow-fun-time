@@ -1,7 +1,7 @@
 <template>
   <div>
     <img alt="Vue logo" src="./assets/dogetrans.png" />
-    <HelloWorld msg="Welcome to 'the hedge'" />
+    <HelloWorld msg="Welcome to 'the hedge' Hi Nicole" />
   </div>
 </template>
 
