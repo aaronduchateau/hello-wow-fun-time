@@ -1,30 +1,29 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/dogetrans.png">
-    sdsdsdsd
-    <HelloWorld msg="Welcome to 'the Hedge'"/>
+    <img alt="Vue logo" src="../assets/dogetrans.png" />
+    <HelloWorld msg="Welcome to 'the Hedge'" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+  },
+};
 </script>
 
 <style>
 .bounce-enter-active {
   transform: scale(0);
-  animation: bounce-in  .5s .5s;
+  animation: bounce-in 0.5s 0.5s;
 }
 .bounce-leave-active {
-  animation: bounce-in .5s reverse;
+  animation: bounce-in 0.5s reverse;
 }
 @keyframes bounce-in {
   0% {
