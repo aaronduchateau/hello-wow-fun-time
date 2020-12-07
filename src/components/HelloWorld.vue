@@ -2,11 +2,17 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p class="maxWidth500Center">
-      This is in no way meant to be financial advice, and the author of this content is not a licensed financial advisor. 
-      Taking financial advice from a dog (in general) is not usually a good idea. 
+      This is in no way meant to be financial advice, and the author of this
+      content is not a licensed financial advisor. Taking financial advice from
+      a dog (in general) is not usually a good idea.
     </p>
-    <br/><br/>
+    <br /><br />
     <a class="btn btn-blue" v-on:click="onNavigateBegin()">Let's Begin</a>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
   </div>
 </template>
 
@@ -75,5 +81,4 @@ a {
     bottom: -30px;
   }
 }
-
 </style>
