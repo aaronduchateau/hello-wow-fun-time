@@ -7,6 +7,15 @@
     </p>
     <br/><br/>
     <a class="btn btn-blue" v-on:click="onFireOffButton">Let's Begin {{ count }}</a>
+    <br/>
+    <ul>
+  <li
+    v-for="todo in iteratorTestObj"
+    v-bind:key="todo.id"
+  >
+    {{ todo.name }}
+  </li>
+</ul>
   </div>
 </template>
 
@@ -23,16 +32,23 @@ export default {
     },
     onFireOffButton: function(){
       this.count = this.count +=1;
+      this.dice = this.dice +=5;
     }
   },
-  setup() {
+  data() {
+    console.log("called before first render but after setup")
+    return {
+      dice: 4,
+      iteratorTestObj: [{id: 1, name: 'bananas are cool'}, {id: 1, name: 'bananas are yellow'}, {id: 1, name: 'bananas are the best'}, ]
+    }
+  },
+  setup(props, context) {
+      console.log(context.slots)
       const count = ref(5);
-      const object = { dice: 5 };
-
-      // expose to template
+      //const object = reactive({ dice: 5 });
+     
       return {
         count,
-        object
       }
     }
 };
