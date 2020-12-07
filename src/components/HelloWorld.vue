@@ -6,7 +6,7 @@
       Taking financial advice from a dog (in general) is not usually a good idea. 
     </p>
     <br/><br/>
-    <a class="btn btn-blue" v-on:click="onNavigateBegin('hi')">Let's Begin</a>
+    <a class="btn btn-blue" v-on:click="onNavigateBegin()">Let's Begin</a>
   </div>
 </template>
 
@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     onNavigateBegin: function () {
-      this.$router.push("about");
+      this.$router.push("power-quote");
     },
   },
 };

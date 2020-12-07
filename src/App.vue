@@ -101,4 +101,28 @@ h1 {
   margin: 0 auto;
 
 }
+
+.space20 {
+  width: 100%;
+  min-height: 20px;
+  display: block;
+}
+
+.space40 {
+  width: 100%;
+  min-height: 20px;
+  display: block;
+}
+
+.space60 {
+  width: 100%;
+  min-height: 20px;
+  display: block;
+}
+
+.space80 {
+  width: 100%;
+  min-height: 20px;
+  display: block;
+}
 </style>

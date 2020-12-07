@@ -2,25 +2,25 @@
   <div class="hello">
     <h1>{{ dice }}</h1>
     <p class="maxWidth500Center">
-      This is in no way meant to be financial advice, and the author of this content is not a licensed financial advisor. 
-      Taking financial advice from a dog (in general) is not usually a good idea. 
+      This is in no way meant to be financial advice, and the author of this
+      content is not a licensed financial advisor. Taking financial advice from
+      a dog (in general) is not usually a good idea.
     </p>
-    <br/><br/>
-    <a class="btn btn-blue" v-on:click="onFireOffButton">Let's Begin {{ count }}</a>
-    <br/>
+    <br /><br />
+    <a class="btn btn-blue" v-on:click="onFireOffButton"
+      >Let's Begin {{ count }}</a
+    >
+    <br />
     <ul>
-  <li
-    v-for="todo in iteratorTestObj"
-    v-bind:key="todo.id"
-  >
-    {{ todo.name }}
-  </li>
-</ul>
+      <li v-for="todo in iteratorTestObj" v-bind:key="todo.id">
+        {{ todo.name }}
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
-import { ref } from 'vue'
+import { ref } from "vue";
 export default {
   name: "TestArea",
   props: {
@@ -30,27 +30,31 @@ export default {
     onNavigateBegin: function () {
       this.$router.push("about");
     },
-    onFireOffButton: function(){
-      this.count = this.count +=1;
-      this.dice = this.dice +=5;
-    }
+    onFireOffButton: function () {
+      this.count = this.count += 1;
+      this.dice = this.dice += 5;
+    },
   },
   data() {
-    console.log("called before first render but after setup")
+    console.log("called before first render but after setup");
     return {
       dice: 4,
-      iteratorTestObj: [{id: 1, name: 'bananas are cool'}, {id: 1, name: 'bananas are yellow'}, {id: 1, name: 'bananas are the best'}, ]
-    }
+      iteratorTestObj: [
+        { id: 1, name: "bananas are cool" },
+        { id: 1, name: "bananas are yellow" },
+        { id: 1, name: "bananas are the best" },
+      ],
+    };
   },
   setup(props, context) {
-      console.log(context.slots)
-      const count = ref(5);
-      //const object = reactive({ dice: 5 });
-     
-      return {
-        count,
-      }
-    }
+    console.log(context.slots);
+    const count = ref(5);
+    //const object = reactive({ dice: 5 });
+
+    return {
+      count,
+    };
+  },
 };
 </script>
 
@@ -105,5 +109,4 @@ a {
     bottom: -30px;
   }
 }
-
 </style>
