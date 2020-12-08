@@ -1,5 +1,5 @@
 <template>
-  <div class="card" :style="w">
+  <div class="card" :style="s">
     <slot>Hmmmm....looks like some content is missing</slot>
   </div>
 </template>
@@ -7,9 +7,10 @@
 <script>
 export default {
   name: "SimpleCard",
-  props: { widthStyle: String },
+  props: { widthStyle: String, paddingStyle: String },
   setup(props) {
-    return { w: { width: props.widthStyle } };
+    
+    return { s: { width: "100%", minWidth: (props.widthStyle || "380px"), maxWidth: (props.widthStyle || "380px"), padding: props.paddingStyle || "20px" } };
   },
 };
 </script>
@@ -25,7 +26,6 @@ $card-cap-bg: #f5f5f5;
 
 .card {
   margin: 0 auto;
-  padding: 20px;
   font-size: 12px;
   margin-bottom: $card-spacer-y;
   border: $card-border-width solid $card-border-color;
@@ -33,6 +33,9 @@ $card-cap-bg: #f5f5f5;
   -moz-box-shadow: 6px 6px 28px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 6px 6px 28px 0px rgba(0, 0, 0, 0.5);
   background-color: white;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;   
 }
 
 .card-block {
