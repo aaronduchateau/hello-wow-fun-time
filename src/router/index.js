@@ -5,7 +5,9 @@ import Resources from '../views/Resources.vue'
 import ResourcesThru from '../views/ResourcesThru.vue'
 import TestArea from '../views/TestArea.vue'
 import Satoshi2 from '../views/Satoshi2.vue'
-
+import JackDorsey from '../views/JackDorsey.vue'
+import JackDorseyTwo from '../views/JackDorseyTwo.vue'
+import DanShulman from '../views/DanShulman.vue'
 
 const routes = [
   {
@@ -41,7 +43,21 @@ const routes = [
     name: 'ResourcesThru',
     component: ResourcesThru
   },
-
+  {
+    path: '/jack-dorsey',
+    name: 'JackDorsey',
+    component: JackDorsey
+  },
+  {
+    path: '/jack-dorsey-2',
+    name: 'JackDorseyTwo',
+    component: JackDorseyTwo
+  },
+  {
+    path: '/dan-schulman',
+    name: 'DanShulman',
+    component: DanShulman
+  },
 
   
 ]

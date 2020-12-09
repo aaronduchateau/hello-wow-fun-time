@@ -20,8 +20,8 @@
       </h2>
     </SimpleCard>
     <div class="flex-buts">
-      <a class="btn btn-blue" v-on:click="$emit('on-navigate-home')">No</a
-      ><a class="btn btn-blue" v-on:click="$emit('on-navigate-next')">Yeah</a>
+      <a class="btn btn-blue" v-on:click="$emit('on-navigate-home')">Back</a
+      ><a class="btn btn-blue" v-on:click="$emit('on-navigate-next')">Next</a>
     </div>
   </div>
 </template>
