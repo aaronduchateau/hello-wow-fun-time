@@ -8,6 +8,8 @@ import Satoshi2 from '../views/Satoshi2.vue'
 import JackDorsey from '../views/JackDorsey.vue'
 import JackDorseyTwo from '../views/JackDorseyTwo.vue'
 import DanShulman from '../views/DanShulman.vue'
+import CoreConcepts from '../views/CoreConcepts.vue'
+import RaulIntro from '../views/RaulIntro.vue'
 
 const routes = [
   {
@@ -57,6 +59,16 @@ const routes = [
     path: '/dan-schulman',
     name: 'DanShulman',
     component: DanShulman
+  },
+  {
+    path: '/core-concepts',
+    name: 'CoreConcepts',
+    component: CoreConcepts
+  },
+  {
+    path: '/raul-intro',
+    name: 'RaulIntro',
+    component: RaulIntro
   },
 
   

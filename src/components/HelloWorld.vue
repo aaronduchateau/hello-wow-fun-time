@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     onNavigateBegin: function () {
-      this.$router.push("power-quote");
+      this.$router.push("core-concepts");
     },
   },
 };
