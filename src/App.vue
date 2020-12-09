@@ -125,4 +125,47 @@ h1 {
   min-height: 20px;
   display: block;
 }
+
+.bounce-enter-active {
+  transform: scale(0);
+  animation: bounce-in 0.5s 0.5s;
+}
+.bounce-leave-active {
+  animation: bounce-in 0.5s reverse;
+}
+.flex-buts {
+  display: flex;
+  flex-direction: row;
+  min-width: 380px;
+}
+.hip-blue {
+  color: #3498db;
+}
+
+.flex-buts a {
+    width: 100%;
+    padding: 0px 0px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2c2c2c;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+.resources2 {
+  margin: 0 auto;
+  max-width: 580px;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 </style>
