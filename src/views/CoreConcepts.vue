@@ -13,9 +13,9 @@
     <p class="maxWidth500Center">
       The national authority that conducts monetary policy, regulates banks, and provides financial services including economic research. Its goals are to stabilize the nation's currency, keep unemployment low, and prevent inflation. We also refer to this group as 'The Fed'
     </p>
-    <h3>The Death of Macro</h3>
+    <h3>"The Death of Macro"</h3>
     <p class="maxWidth500Center">
-      The concept that the way that our Central Banks impliment monetary policy (macro economics) is flawed, and will have to be rethought in 2021 to save the economy.
+      The concept that the way our Central Banks impliment monetary policy (macro economics) is flawed, and will have to be rethought in 2021 to save the economy.
     </p>
     <h3>Behavioral Based Economics and Incentive Systems</h3>
     <p class="maxWidth500Center">

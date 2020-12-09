@@ -1,10 +1,14 @@
 <template>
   <div>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/resources">Normal People think...</router-link> |
-      <router-link to="/about">About</router-link> |
+    <div id="left-nav">
+      <router-link to="/">Home</router-link> <br/>
+      <router-link to="/resources">Normal People think...</router-link> <br/>
+      <router-link to="/about">About</router-link> <br/>
       <router-link to="/test-area">Test Area</router-link>
+    </div>  
+    <div class="content">
+    <div id="nav">
+      
     </div>
 
     <router-view v-slot="{ Component }">
@@ -12,6 +16,7 @@
         <component :is="Component" />
       </transition>
     </router-view>
+    </div>
   </div>
 </template>
 
@@ -19,6 +24,7 @@
 body {
     background-color: #fafafa;
   min-height: 100%;
+  height: 100%;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -28,13 +34,32 @@ body {
   color: #2c3e50;
 }
 
+.content {
+  margin-left: 300px;
+}
+
 #nav {
   padding: 30px;
+
 }
 
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+}
+
+#left-nav {
+  float: left;
+  min-width: 300px;
+  z-index: 5;
+  min-height: 100%;
+  height: 100%;
+  background-color: #3498db;
+  margin-left: -10px;
+  margin-top: -10px;
+  padding: 20px;
+  color: white;
+  position: fixed;
 }
 
 #nav a.router-link-exact-active {
