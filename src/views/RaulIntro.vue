@@ -1,29 +1,21 @@
 <template>
   <div class="hello">
-    <h1>Core Concepts</h1>
-    <h3>Macro Economics</h3>
+    <br /><br />
+    <p class="maxWidth500Center">The following clip was released on Dec 7th, 2020 by</p>
+    <h1>Raoul Pal</h1>
     <p class="maxWidth500Center">
-      the part of economics concerned with large-scale or general economic factors, such as interest rates and national productivity. 
-    </p>
-    <h3>Currency Debacement</h3>
-    <p class="maxWidth500Center">
-      This is the process by which a national currency (like the U.S. dollar), loses value over time, due to inlation or the failings of macro economics 
-    </p>
-     <h3>Central Banks</h3>
-    <p class="maxWidth500Center">
-      national authority that conducts monetary policy, regulates banks, and provides financial services including economic research. Its goals are to stabilize the nation's currency, keep unemployment low, and prevent inflation. We also refer to this group as 'The Fed'
-    </p>
-    <h3>The Death of Macro</h3>
-    <p class="maxWidth500Center">
-      The concept that the way that our Central Banks impliment monetary policy (macro economics) is flawed, and will have to be rethought in 2021 to save the economy.
-    </p>
-    <h3>Behavioral Based Economics and Incentive Systems</h3>
-    <p class="maxWidth500Center">
-      The best way for the Fed to jump start the economy again is to divy out precision level stimulus. Individuals and organizations may have access to different interest rates or financial aid (in real time) depending on thousands of data points that represent their financial situation. The way this stimulus will be managed (and distributed) will be through a digital currency.
+      Raoul Pal was co-head of <b>hedge fund</b> sales in equities and equity derivatives
+      at <b>Goldman Sacks</b> in Europe.
+      <br /><br />
+      Raoul Pal is interesting because although he comes from the world of traditional
+      finance, he is extremely bullish (i.e. he has a postive outlook) on Bitcoin.
+       <br /><br />
+       Some of these concepts may seem a little complicated, but I am sharing this particular resource because i feel as though it does a good job of summarazing where we are at in this particular point in history, and outlines why that matters for Bitcion.
+    <br /><br />
+    Do not worry if you don't understand everything but try to understand the broader concepts, and it will be a good basis moving forward.
     </p>
     <br /><br />
     <a class="btn btn-blue" v-on:click="onNavigateBegin()">Next</a>
-
   </div>
 </template>
 
@@ -32,13 +24,11 @@ export default {
   name: "RaulIntro",
   methods: {
     onNavigateBegin: function () {
-      this.$router.push("raul-intro");
+      this.$router.push("raul-video");
     },
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>

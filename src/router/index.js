@@ -10,6 +10,7 @@ import JackDorseyTwo from '../views/JackDorseyTwo.vue'
 import DanShulman from '../views/DanShulman.vue'
 import CoreConcepts from '../views/CoreConcepts.vue'
 import RaulIntro from '../views/RaulIntro.vue'
+import RaulVideo from '../views/RaulVideo.vue'
 
 const routes = [
   {
@@ -69,6 +70,11 @@ const routes = [
     path: '/raul-intro',
     name: 'RaulIntro',
     component: RaulIntro
+  },
+  {
+    path: '/raul-video',
+    name: 'RaulVideo',
+    component: RaulVideo
   },
 
   

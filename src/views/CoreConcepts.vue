@@ -3,7 +3,7 @@
     <h1>Core Concepts</h1>
     <h3>Macro Economics</h3>
     <p class="maxWidth500Center">
-      the part of economics concerned with large-scale or general economic factors, such as interest rates and national productivity. 
+      The part of economics concerned with large-scale or general economic factors, such as interest rates and national productivity. 
     </p>
     <h3>Currency Debacement</h3>
     <p class="maxWidth500Center">
@@ -11,7 +11,7 @@
     </p>
      <h3>Central Banks</h3>
     <p class="maxWidth500Center">
-      national authority that conducts monetary policy, regulates banks, and provides financial services including economic research. Its goals are to stabilize the nation's currency, keep unemployment low, and prevent inflation. We also refer to this group as 'The Fed'
+      The national authority that conducts monetary policy, regulates banks, and provides financial services including economic research. Its goals are to stabilize the nation's currency, keep unemployment low, and prevent inflation. We also refer to this group as 'The Fed'
     </p>
     <h3>The Death of Macro</h3>
     <p class="maxWidth500Center">
