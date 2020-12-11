@@ -14,6 +14,8 @@ import RaulVideo from '../views/RaulVideo.vue'
 import Mainstream from '../views/Mainstream.vue'
 import Bullish from '../views/Bullish.vue'
 import StepOne from '../views/StepOne.vue'
+import StepTwo from '../views/StepTwo.vue'
+//import StepThree from '../views/StepThree.vue'
 
 const routes = [
   {
@@ -94,6 +96,11 @@ const routes = [
     path: '/step-one',
     name: 'StepOne',
     component: StepOne
+  },
+  {
+    path: '/step-two',
+    name: 'StepTwo',
+    component: StepTwo
   },
   
   

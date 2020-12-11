@@ -8,7 +8,7 @@
         credit card or a bank account. <br />
         <br />
         Note: <b>ETH</b> is different than <i><b>ETC</b> (Ethereum Classic)</i>).
-        <br /><br /><b>ETC</b> sucks and you should not buy it, Ever. <br />
+       
         <br /><br />
         Here is an example of the right thing.<br />
         <br />
@@ -80,7 +80,7 @@ export default {
   name: "Mainstream",
   methods: {
     onNavigateBegin: function () {
-      alert("Not done with step 2 yet!");
+       this.$router.push("step-two");
     },
   },
 };
