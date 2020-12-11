@@ -15,7 +15,7 @@ import Mainstream from '../views/Mainstream.vue'
 import Bullish from '../views/Bullish.vue'
 import StepOne from '../views/StepOne.vue'
 import StepTwo from '../views/StepTwo.vue'
-//import StepThree from '../views/StepThree.vue'
+import StepThree from '../views/StepThree.vue'
 
 const routes = [
   {
@@ -101,6 +101,11 @@ const routes = [
     path: '/step-two',
     name: 'StepTwo',
     component: StepTwo
+  },
+  {
+    path: '/step-three',
+    name: 'StepThree',
+    component: StepThree
   },
   
   

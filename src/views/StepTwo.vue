@@ -43,7 +43,7 @@ export default {
   name: "Mainstream",
   methods: {
     onNavigateBegin: function () {
-      alert("Not done with step 2 yet!");
+      this.$router.push("step-three");
     },
   },
 };

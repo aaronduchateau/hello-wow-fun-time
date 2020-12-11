@@ -19,8 +19,8 @@
         <img class="instructions-img" src="../assets/ETC.png" />
         <br /><br />
         <br /><br />
-        <b>ETH</b> is not the thing you will be holding long term, but rather the 'entry
-        point' currency you will need to get into the pool. <br />
+        While <b>ETH</b> is not the thing you will be holding long term, you will still need it as the 'entry
+        point' currency to be included in the pool. <br />
         <br />
         In order to do this you are going to need to use an <b>Exchange</b> to turn money
         from your bank account into ETH. In order to send your ETH to the pool, you will
@@ -39,9 +39,8 @@
         <br /><br />
         <b>Note:</b> If you are linking a bank account, recieving your ETH may take 3-5
         days. That's because banks are slow. While many of these exchanges have different
-        characteristics, the consensus in our group is that the fastest (i.e. less shitty)
-        of the three would <i>currently</i> appear to be the
-        <a href="https://kraken.com" target="_blank">Kraken</a> exchange. <br /><br />
+        characteristics, we <i>currently</i> believe that the
+        <a href="https://kraken.com" target="_blank">Kraken</a> exchange will get you an available balance the fastest. <br /><br />
         Regardless of the exchange you choose (from the approved 3 above) the process will
         be mostly the same. You will need to verify your identiy with photo id (just like
         you are getting a new bank account), hook up some form of payment system, and
