@@ -11,6 +11,9 @@ import DanShulman from '../views/DanShulman.vue'
 import CoreConcepts from '../views/CoreConcepts.vue'
 import RaulIntro from '../views/RaulIntro.vue'
 import RaulVideo from '../views/RaulVideo.vue'
+import Mainstream from '../views/Mainstream.vue'
+import Bullish from '../views/Bullish.vue'
+import StepOne from '../views/StepOne.vue'
 
 const routes = [
   {
@@ -76,7 +79,23 @@ const routes = [
     name: 'RaulVideo',
     component: RaulVideo
   },
+  {
+    path: '/mainstream',
+    name: 'mainstream',
+    component: Mainstream
+  },
 
+  {
+    path: '/bullish',
+    name: 'Bullish',
+    component: Bullish
+  },
+  {
+    path: '/step-one',
+    name: 'StepOne',
+    component: StepOne
+  },
+  
   
 ]
 

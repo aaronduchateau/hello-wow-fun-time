@@ -1,10 +1,13 @@
 <template>
   <div>
     <div id="left-nav">
-      <router-link to="/">Home</router-link> <br/>
-      <router-link to="/resources">Normal People think...</router-link> <br/>
-      <router-link to="/about">About</router-link> <br/>
-      <router-link to="/test-area">Test Area</router-link>
+      <router-link to="/">Home</router-link> <br/><br/>
+      <router-link to="/resources">Normal People think...</router-link> <br/><br/>
+      <router-link to="/about">About</router-link> <br/><br/>
+      <router-link to="/test-area">Test Area</router-link><br/><br/>
+      <router-link to="/mainstream">2021 BTC goes Mainstream</router-link><br/><br/>
+      <router-link to="/bullish">This is bullish</router-link><br/><br/>
+      <router-link to="/step-one"><h1>Step One</h1></router-link>
     </div>  
     <div class="content">
     <div id="nav">
