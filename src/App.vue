@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div>   
+   
     <div id="left-nav">
       <router-link to="/">Home</router-link> <br/><br/>
       <router-link to="/resources">Normal People think...</router-link> <br/><br/>
@@ -22,8 +23,33 @@
     </div>
   </div>
 </template>
+<script>
+import { DockMenu } from "vue-dock-menu";
+import "vue-dock-menu/dist/vue-dock-menu.css";
+export default {
+  name: "example",
+  components: {
+    DockMenu
+  },
+  data() {
+    return {
+      items : [
+        {
+          name: "File",
+          menu: [{ name: "Open"}, {name: "New Window"}, {name: "Exit"}]
+        },
+        {
+          name: "Edit",
+          menu: [{ name: "Cut"}, {name: "Copy"}, {name: "Paste"}]
+        }
+      ]
+    }
+  }
+}
+</script>
 
 <style lang="scss">
+
 body {
     background-color: #fafafa;
   min-height: 100%;
