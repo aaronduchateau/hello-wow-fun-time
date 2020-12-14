@@ -28,7 +28,7 @@
         <hr style="clear: both; opacity: 0.3" />
         <h2 class="sec-title">The 'Normal asset' problem of 2021</h2>
         <ol>
-         <li><router-link to="/">Cash is trash</router-link> </li>
+         <li><router-link to="/step-one">Cash is trash</router-link> </li>
         <li><router-link to="/">Stocks are Sketch</router-link> </li>
         <li><router-link to="/">Real Estate is Complicated</router-link> </li>
         <li><router-link to="/">Bonds are Busted</router-link> </li>
@@ -70,7 +70,7 @@
     <div class="content">
 
       <router-view v-slot="{ Component }">
-        <transition name="bounce">
+        <transition name="bounce" v-on:before-leave="beforeLeave">
           <component :is="Component" />
         </transition>
       </router-view>
@@ -98,6 +98,9 @@ export default {
     onNavigate: function (r) {
       this.$router.push(r);
     },
+    beforeLeave: function(){
+      document.getElementById('app').scrollIntoView();
+    }
   },
 };
 </script>

@@ -1,11 +1,11 @@
 <template>
   <YesNoCard @on-navigate-home="doNavigateHome" @on-navigate-next="doNavigateNext">
     <template v-slot:header>
-      Since then, Cash App generated over $1.63 billion in revenue selling Bitcoin. After PayPal saw the revenue CashApp was bringing in, they immediatly made plans to
-      start selling cryptocurrencies
+      Since then, Cash App generated over $1.63 billion in revenue selling Bitcoin. Shortly after Paypal immediatly made plans to
+      start selling too. They understood that to remain competative it would be negligent not to. On Nov 16th, 2020 Paypal announced that its <i>286 million customers</i> could buy cryptocurrency through their primary application. 
     </template>
     <template v-slot:name> Dan Schulman </template>
-    <template v-slot:claim-to-fame> CEO of Paypal </template>
+    <template v-slot:claim-to-fame> CEO of Paypal, Priceline.com, and more </template>
     <template v-slot:source> CNN Business </template>
     <template v-slot:type-of-dude>
       Tech mogal directly responsible for turning Priceline.com into a BILLION dollar
