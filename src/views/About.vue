@@ -6,7 +6,7 @@
 
 
 
-
+<style>
 .bounce-enter-active {
   transform: scale(0);
   animation: bounce-in .5s .5s;
