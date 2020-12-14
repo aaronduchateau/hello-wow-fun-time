@@ -9,10 +9,13 @@
 <style>
 .bounce-enter-active {
   transform: scale(0);
-  animation: bounce-in .5s .5s;
+  animation: bounce-in .5s;
+
 }
 .bounce-leave-active {
-  animation: bounce-in .5s reverse;
+ 
+  animation: 2s bounce-in .5s reverse;
+
 }
 @keyframes bounce-in {
   0% {

@@ -2,19 +2,60 @@
   <div>
     <div id="left-nav" class="menu" v-bind:class="[isActive ? 'slideIn' : 'slideOut']">
       <div>
-        <h2 style="float: left; margin-left: 20px; font-family: 'Poiret One', cursive">
-          The Hedge
-        </h2>
+        <h2 class="logo" @click="onNavigate('/')">The Hedge</h2>
         <Menu class="close-icon" @click="toggleClass()"></Menu>
         <hr style="clear: both; opacity: 0.3" />
-        <br /><br />
-        <router-link to="/">Home</router-link> <br /><br />
-        <router-link to="/resources">Normal People think...</router-link> <br /><br />
-        <router-link to="/about">About</router-link> <br /><br />
-        <router-link to="/test-area">Test Area</router-link><br /><br />
-        <router-link to="/mainstream">2021 BTC goes Mainstream</router-link><br /><br />
-        <router-link to="/bullish">This is bullish</router-link><br /><br />
+        <div class="scroller">
+        <h2 class="sec-title">Tutorial: Bitcoin in 2021</h2>
+        <ol>
+         <li><router-link to="/">Institutional Momentum: Next year and the 1000 foot view</router-link> </li>
+        <li><router-link to="/">The Paul Tudor Jones Event</router-link> </li>
+        <li><router-link to="/">The Jack Dorsey Event</router-link> </li>
+        <li><router-link to="/">The Dan Schulman Event</router-link> </li>
+        <li><router-link to="/">Performance of Grayscale Trust</router-link> </li>
+        <li><router-link to="/">The purchasing trends of Microstrategies</router-link> </li>
+        <li><router-link to="/">*The Mass Mutual Event</router-link> </li>
+        <li><router-link to="/resources">Raoul Paul & the Big Picture moving forward (Crack a beer for this one)</router-link> </li>
+        <li><router-link to="/resources">The Undeniably bullish news</router-link> </li>
+        </ol>
+        <hr style="clear: both; opacity: 0.3" />
+        <h2 class="sec-title">Getting Started</h2>
+        <ol>
+         <li><router-link to="/">Example of diversified Crytpo Exposure entering 2021</router-link> </li>
+        <li><router-link to="/">This is complicated! Where to start?</router-link> </li>
+    
+        </ol>
+        <hr style="clear: both; opacity: 0.3" />
+        <h2 class="sec-title">The 'Normal asset' problem of 2021</h2>
+        <ol>
+         <li><router-link to="/">Cash is trash</router-link> </li>
+        <li><router-link to="/">Stocks are Sketch</router-link> </li>
+        <li><router-link to="/">Real Estate is Complicated</router-link> </li>
+        <li><router-link to="/">Bonds are Busted</router-link> </li>
+        <li><router-link to="/">Gold will lose Market Share</router-link> </li>
+        
+        </ol>
+        
+       
+           <hr style="clear: both; opacity: 0.3" />
+        <h2 class="sec-title">Feeds to Watch</h2>
+        <ol>
+         <li><router-link to="/">Raoul Paul</router-link> </li>
+        <li><router-link to="/">Anthony Pompliano</router-link> </li>
+        <li><router-link to="/">This Bullish</router-link> </li>
+        <li><router-link to="/">Satoshi Dogomoto</router-link> </li>
+        </ol>
+        <br/><br/><br/>
+
+
+
+        <router-link to="/resources">Conclusion</router-link> 
+        <router-link to="/about">About</router-link> 
+        <router-link to="/test-area">Test Area</router-link>
+        <router-link to="/mainstream">2021 BTC goes Mainstream</router-link>
+        <router-link to="/bullish">This is bullish</router-link>
         <router-link to="/step-one">Step One</router-link>
+         </div>
       </div>
     </div>
     <div class="content">
@@ -46,17 +87,27 @@ export default {
     toggleClass: function () {
       this.isActive = !this.isActive;
     },
+    onNavigate: function (r) {
+      this.$router.push(r);
+    },
   },
 };
 </script>
 
 <style lang="scss">
+.logo {
+  float: left;
+  margin-left: 20px;
+  font-family: "Poiret One", cursive;
+  cursor: pointer;
+}
+
 .close-icon {
   color: white;
-  font-size: 32px;
+  font-size: 25px;
   float: right;
-  margin-right: 10px;
-  margin-top: 18px;
+  margin-right: 6px;
+  margin-top: 20px;
   cursor: pointer;
 }
 body {
@@ -88,8 +139,18 @@ body {
   color: #2c3e50;
 }
 
+.sec-title {
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+  margin-left: 27px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-right: 34px;
+}
+
 .menu {
   min-width: 300px;
+  max-width: 300px;
   z-index: 5;
   min-height: 100%;
   height: 100%;
@@ -99,6 +160,22 @@ body {
   padding: 0px;
   color: white;
   position: fixed;
+  text-align: left;
+  a {
+    color: white;
+    text-decoration: none;
+    line-height: 17px;
+    margin-left: 4px;
+    margin-right: 34px;
+    max-width: 250px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    &:hover {
+      color: #d5ebe9;
+    }
+  }
 }
 .slideIn {
   left: 0px;
@@ -109,7 +186,7 @@ body {
 
 @keyframes slidein {
   from {
-    left: -240px;
+    left: -255px;
   }
 
   to {
@@ -118,7 +195,7 @@ body {
 }
 
 .slideOut {
-  left: -240px;
+  left: -255px;
   /* for chrome and safari*/
   animation-duration: 1s;
   animation-name: slideOut;
@@ -130,7 +207,7 @@ body {
   }
 
   to {
-    left: -240px;
+    left: -255px;
   }
 }
 
