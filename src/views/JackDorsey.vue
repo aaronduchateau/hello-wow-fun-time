@@ -1,7 +1,7 @@
 <template>
   <YesNoCard @on-navigate-home="doNavigateHome" @on-navigate-next="doNavigateNext">
     <template v-slot:header>
-      Normal folks think that CEO's of big companies aren't interested in Cryptocurrency
+      Just one year before Paul Tudor Jones fessed up to owning bitcoin, Jack Dorsey integrated had integrated Crypto purchasing into 'Cash App'...
     </template>
     <template v-slot:name> Jack Dorsey </template>
     <template v-slot:claim-to-fame>

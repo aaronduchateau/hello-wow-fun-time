@@ -47,6 +47,15 @@
         </ol>
         <br/><br/><br/>
 
+           <hr style="clear: both; opacity: 0.3" />
+        <h2 class="sec-title">Other</h2>
+        <ol>
+         <li><router-link to="/">About</router-link> </li>
+        <li><router-link to="/">Join us on Discord</router-link> </li>
+       
+        </ol>
+        <br/><br/><br/>
+
 
 
         <router-link to="/resources">Conclusion</router-link> 
@@ -59,7 +68,6 @@
       </div>
     </div>
     <div class="content">
-      <div id="nav"></div>
 
       <router-view v-slot="{ Component }">
         <transition name="bounce">
@@ -156,7 +164,7 @@ body {
   height: 100%;
   background-color: #3498db;
   margin-left: -10px;
-  margin-top: -10px;
+  top: 0px;
   padding: 0px;
   color: white;
   position: fixed;

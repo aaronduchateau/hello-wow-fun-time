@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <br/> <br/>
     <HelloWorld msg="Welcome to 'the Hedge'"/>
     <div class="space80" />
     <div src="../assets/doge-thinks.png" class="doge">

@@ -1,7 +1,7 @@
 <template>
   <YesNoCard @on-navigate-home="doNavigateHome" @on-navigate-next="doNavigateNext">
     <template v-slot:header>
-      After PayPal saw the revenue CashApp was bringing in, they immediatly made plans to
+      Since then, Cash App generated over $1.63 billion in revenue selling Bitcoin. After PayPal saw the revenue CashApp was bringing in, they immediatly made plans to
       start selling cryptocurrencies
     </template>
     <template v-slot:name> Dan Schulman </template>

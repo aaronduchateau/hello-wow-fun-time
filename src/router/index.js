@@ -16,6 +16,10 @@ import Bullish from '../views/Bullish.vue'
 import StepOne from '../views/StepOne.vue'
 import StepTwo from '../views/StepTwo.vue'
 import StepThree from '../views/StepThree.vue'
+import Preamble from '../views/Preamble.vue'
+import PompIntro from '../views/PompIntro.vue'
+import PompIntroTwo from '../views/PompIntroTwo.vue'
+import PompVideo from '../views/PompVideo.vue'
 
 const routes = [
   {
@@ -106,6 +110,26 @@ const routes = [
     path: '/step-three',
     name: 'StepThree',
     component: StepThree
+  },
+  {
+    path: '/preamble',
+    name: 'Preamble',
+    component: Preamble
+  },
+  {
+    path: '/pomp-intro',
+    name: 'PompIntro',
+    component: PompIntro
+  },
+  {
+    path: '/pomp-intro-two',
+    name: 'PompIntroTwo',
+    component: PompIntroTwo
+  },
+  {
+    path: '/pomp-video',
+    name: 'PompVideo',
+    component: PompVideo
   },
   
   
