@@ -1,57 +1,66 @@
 <template>
-  <div>   
-   
-    <div id="left-nav">
-      <router-link to="/">Home</router-link> <br/><br/>
-      <router-link to="/resources">Normal People think...</router-link> <br/><br/>
-      <router-link to="/about">About</router-link> <br/><br/>
-      <router-link to="/test-area">Test Area</router-link><br/><br/>
-      <router-link to="/mainstream">2021 BTC goes Mainstream</router-link><br/><br/>
-      <router-link to="/bullish">This is bullish</router-link><br/><br/>
-      <router-link to="/step-one"><h1>Step One</h1></router-link>
-    </div>  
-    <div class="content">
-    <div id="nav">
-      
+  <div>
+    <div id="left-nav" class="menu" v-bind:class="[isActive ? 'slideIn' : 'slideOut']">
+      <div>
+        <h2 style="float: left; margin-left: 20px; font-family: 'Poiret One', cursive">
+          The Hedge
+        </h2>
+        <Menu class="close-icon" @click="toggleClass()"></Menu>
+        <hr style="clear: both; opacity: 0.3" />
+        <br /><br />
+        <router-link to="/">Home</router-link> <br /><br />
+        <router-link to="/resources">Normal People think...</router-link> <br /><br />
+        <router-link to="/about">About</router-link> <br /><br />
+        <router-link to="/test-area">Test Area</router-link><br /><br />
+        <router-link to="/mainstream">2021 BTC goes Mainstream</router-link><br /><br />
+        <router-link to="/bullish">This is bullish</router-link><br /><br />
+        <router-link to="/step-one">Step One</router-link>
+      </div>
     </div>
+    <div class="content">
+      <div id="nav"></div>
 
-    <router-view v-slot="{ Component }">
-      <transition name="bounce">
-        <component :is="Component" />
-      </transition>
-    </router-view>
+      <router-view v-slot="{ Component }">
+        <transition name="bounce">
+          <component :is="Component" />
+        </transition>
+      </router-view>
     </div>
   </div>
 </template>
 <script>
-import { DockMenu } from "vue-dock-menu";
-import "vue-dock-menu/dist/vue-dock-menu.css";
+import { Menu } from "mdue";
+
 export default {
-  name: "example",
+  name: "App",
   components: {
-    DockMenu
+    Menu,
   },
-  data() {
+  data: () => {
     return {
-      items : [
-        {
-          name: "File",
-          menu: [{ name: "Open"}, {name: "New Window"}, {name: "Exit"}]
-        },
-        {
-          name: "Edit",
-          menu: [{ name: "Cut"}, {name: "Copy"}, {name: "Paste"}]
-        }
-      ]
-    }
-  }
-}
+      isActive: true,
+      hasError: false,
+    };
+  },
+  methods: {
+    toggleClass: function () {
+      this.isActive = !this.isActive;
+    },
+  },
+};
 </script>
 
 <style lang="scss">
-
+.close-icon {
+  color: white;
+  font-size: 32px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 18px;
+  cursor: pointer;
+}
 body {
-    background-color: #fafafa;
+  background-color: #fafafa;
   min-height: 100%;
   height: 100%;
 }
@@ -65,11 +74,13 @@ body {
 
 .content {
   margin-left: 300px;
+  @media (max-width: 768px) {
+    margin-left: 40px;
+  }
 }
 
 #nav {
   padding: 30px;
-
 }
 
 #nav a {
@@ -77,8 +88,7 @@ body {
   color: #2c3e50;
 }
 
-#left-nav {
-  float: left;
+.menu {
   min-width: 300px;
   z-index: 5;
   min-height: 100%;
@@ -86,9 +96,42 @@ body {
   background-color: #3498db;
   margin-left: -10px;
   margin-top: -10px;
-  padding: 20px;
+  padding: 0px;
   color: white;
   position: fixed;
+}
+.slideIn {
+  left: 0px;
+  /* for chrome and safari*/
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    left: -240px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+.slideOut {
+  left: -240px;
+  /* for chrome and safari*/
+  animation-duration: 1s;
+  animation-name: slideOut;
+}
+
+@keyframes slideOut {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: -240px;
+  }
 }
 
 #nav a.router-link-exact-active {
@@ -157,7 +200,6 @@ h1 {
 .maxWidth500Center {
   max-width: 500px;
   margin: 0 auto;
-
 }
 
 .space20 {
@@ -201,15 +243,15 @@ h1 {
 }
 
 .flex-buts a {
-    width: 100%;
-    padding: 0px 0px;
-    font-weight: 600;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #2c2c2c;
-    transition: all 0.3s ease;
-    margin: 10px;
+  width: 100%;
+  padding: 0px 0px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  transition: all 0.3s ease;
+  margin: 10px;
 }
 .resources2 {
   margin: 0 auto;

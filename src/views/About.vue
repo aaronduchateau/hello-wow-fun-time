@@ -5,7 +5,7 @@
 </template>
 
 
-<style>
+
 
 .bounce-enter-active {
   transform: scale(0);
