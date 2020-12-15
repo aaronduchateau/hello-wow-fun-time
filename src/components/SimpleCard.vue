@@ -10,7 +10,7 @@ export default {
   props: { widthStyle: String, paddingStyle: String },
   setup(props) {
     
-    return { s: { width: "100%", minWidth: (props.widthStyle || "380px"), maxWidth: (props.widthStyle || "380px"), padding: props.paddingStyle || "20px" } };
+    return { s: { width: "100%", minWidth: (props.widthStyle || "380px"), padding: props.paddingStyle || "20px" } };
   },
 };
 </script>

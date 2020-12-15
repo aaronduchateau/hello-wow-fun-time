@@ -10,7 +10,7 @@
     </p>
     <br /><br />
     <iframe
-      width="560"
+      width="100%"
       height="315"
       src="https://www.youtube.com/embed/_-pv4aDDzgM"
       frameborder="0"
