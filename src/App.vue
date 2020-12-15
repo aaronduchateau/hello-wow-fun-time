@@ -6,70 +6,88 @@
         <Menu class="close-icon" @click="toggleClass()"></Menu>
         <hr style="clear: both; opacity: 0.3" />
         <div class="scroller">
-        <h2 class="sec-title">Tutorial: Bitcoin in 2021</h2>
-        <ol>
-         <li><router-link to="/preamble">Institutional Momentum: Next year and the 1000 foot view</router-link> </li>
-        <li><router-link to="/resources-main">The Paul Tudor Jones Event</router-link> </li>
-        <li><router-link to="/jack-dorsey-2">The Jack Dorsey Event</router-link> </li>
-        <li><router-link to="/dan-schulman">The Dan Schulman Event</router-link> </li>
-        <li><router-link to="/">The purchasing trends of Microstrategies and GrayScale</router-link> </li>
-        <li><router-link to="/">Regulatory FUD, it's actually good.</router-link> </li>
-        <li><router-link to="/">*The Mass Mutual Event</router-link> </li>
-        <li><router-link to="/">Overview: The Rise of DeFi</router-link> </li>
-        <li><router-link to="/core-concepts">Raoul Paul & the Big Picture moving forward (Crack a beer for this one)</router-link> </li>
-        <li><router-link to="/resources">Review: The Undeniably bullish news</router-link> </li>
-        </ol>
-        <hr style="clear: both; opacity: 0.3" />
-        <h2 class="sec-title">Getting Started</h2>
-        <ol>
-         <li><router-link to="/">Example of diversified Crytpo Exposure entering 2021</router-link> </li>
-        <li><router-link to="/">This is complicated! Where to start?</router-link> </li>
-    
-        </ol>
-        <hr style="clear: both; opacity: 0.3" />
-        <h2 class="sec-title">The 'Normal asset' problem of 2021</h2>
-        <ol>
-         <li><router-link to="/step-one">Cash is trash</router-link> </li>
-        <li><router-link to="/">Stocks are Sketch</router-link> </li>
-        <li><router-link to="/">Real Estate is Complicated</router-link> </li>
-        <li><router-link to="/">Bonds are Busted</router-link> </li>
-        <li><router-link to="/">Gold will lose Market Share</router-link> </li>
-        
-        </ol>
-        
-       
-           <hr style="clear: both; opacity: 0.3" />
-        <h2 class="sec-title">Feeds to Watch</h2>
-        <ol>
-         <li><router-link to="/">Raoul Paul</router-link> </li>
-        <li><router-link to="/">Anthony Pompliano</router-link> </li>
-        <li><router-link to="/">This Bullish</router-link> </li>
-        <li><router-link to="/">Satoshi Dogomoto</router-link> </li>
-        </ol>
-        <br/><br/><br/>
+          <h2 class="sec-title">Tutorial: Bitcoin in 2021</h2>
+          <ol>
+            <li>
+              <router-link to="/preamble"
+                >Institutional Momentum: Next year and the 1000 foot view</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/resources-main">The Paul Tudor Jones Event</router-link>
+            </li>
+            <li><router-link to="/jack-dorsey-2">The Jack Dorsey Event</router-link></li>
+            <li><router-link to="/dan-schulman">The Dan Schulman Event</router-link></li>
+            <li>
+              <router-link to="/"
+                >The purchasing trends of Microstrategies and GrayScale</router-link
+              >
+            </li>
+            <li><router-link to="/">Regulatory FUD, it's actually good.</router-link></li>
+            <li><router-link to="/">*The Mass Mutual Event</router-link></li>
+            <li><router-link to="/">Overview: The Rise of DeFi</router-link></li>
+            <li>
+              <router-link to="/core-concepts"
+                >Raoul Paul & the Big Picture moving forward (Crack a beer for this
+                one)</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/resources"
+                >Review: The Undeniably bullish news</router-link
+              >
+            </li>
+          </ol>
+          <hr style="clear: both; opacity: 0.3" />
+          <h2 class="sec-title">Getting Started</h2>
+          <ol>
+            <li>
+              <router-link to="/"
+                >Example of diversified Crytpo Exposure entering 2021</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/">This is complicated! Where to start?</router-link>
+            </li>
+          </ol>
+          <hr style="clear: both; opacity: 0.3" />
+          <h2 class="sec-title">The 'Normal asset' problem of 2021</h2>
+          <ol>
+            <li><router-link to="/step-one">Cash is trash</router-link></li>
+            <li><router-link to="/">Stocks are Sketch</router-link></li>
+            <li><router-link to="/">Real Estate is Complicated</router-link></li>
+            <li><router-link to="/">Bonds are Busted</router-link></li>
+            <li><router-link to="/">Gold will lose Market Share</router-link></li>
+          </ol>
 
-           <hr style="clear: both; opacity: 0.3" />
-        <h2 class="sec-title">Other</h2>
-        <ol>
-         <li><router-link to="/">About</router-link> </li>
-        <li><router-link to="/">Join us on Discord</router-link> </li>
-       
-        </ol>
-        <br/><br/><br/>
+          <hr style="clear: both; opacity: 0.3" />
+          <h2 class="sec-title">Feeds to Watch</h2>
+          <ol>
+            <li><router-link to="/">Raoul Paul</router-link></li>
+            <li><router-link to="/">Anthony Pompliano</router-link></li>
+            <li><router-link to="/">This Bullish</router-link></li>
+            <li><router-link to="/">Satoshi Dogomoto</router-link></li>
+          </ol>
+          <br /><br /><br />
 
+          <hr style="clear: both; opacity: 0.3" />
+          <h2 class="sec-title">Other</h2>
+          <ol>
+            <li><router-link to="/">About</router-link></li>
+            <li><router-link to="/">Join us on Discord</router-link></li>
+          </ol>
+          <br /><br /><br />
 
-
-        <router-link to="/resources">Conclusion</router-link> 
-        <router-link to="/about">About</router-link> 
-        <router-link to="/test-area">Test Area</router-link>
-        <router-link to="/mainstream">2021 BTC goes Mainstream</router-link>
-        <router-link to="/bullish">This is bullish</router-link>
-        <router-link to="/step-one">Step One</router-link>
-         </div>
+          <router-link to="/resources">Conclusion</router-link>
+          <router-link to="/about">About</router-link>
+          <router-link to="/test-area">Test Area</router-link>
+          <router-link to="/mainstream">2021 BTC goes Mainstream</router-link>
+          <router-link to="/bullish">This is bullish</router-link>
+          <router-link to="/step-one">Step One</router-link>
+        </div>
       </div>
     </div>
     <div class="content">
-
       <router-view v-slot="{ Component }">
         <transition name="bounce" v-on:after-leave="afterLeave">
           <component :is="Component" />
@@ -89,7 +107,7 @@ export default {
   },
   data: () => {
     return {
-      isActive: (!screen.width < screenWidthTrig),
+      isActive: !screen.width < screenWidthTrig,
       hasError: false,
     };
   },
@@ -100,12 +118,12 @@ export default {
     onNavigate: function (r) {
       this.$router.push(r);
     },
-    afterLeave: function(){
-      document.getElementById('app').scrollIntoView();
-      if (screen.width < screenWidthTrig){
+    afterLeave: function () {
+      document.getElementById("app").scrollIntoView();
+      if (screen.width < screenWidthTrig) {
         this.isActive = false;
       }
-    }
+    },
   },
 };
 </script>
@@ -144,6 +162,7 @@ body {
   @media (max-width: 768px) {
     margin-left: 40px;
   }
+  margin-right: 5px;
 }
 
 #nav {
@@ -188,15 +207,21 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0px;
+    opacity: 0.7;
+    &.router-link-exact-active {
+      opacity: 1;
+      text-shadow: 2px 2px 8px #ff0000;
+    }
     &:hover {
-      color: #d5ebe9;
+      color: #ffffff;
+      opacity: 1;
     }
   }
 }
 .slideIn {
   left: 0px;
   /* for chrome and safari*/
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   animation-name: slidein;
 }
 
@@ -213,7 +238,7 @@ body {
 .slideOut {
   left: -255px;
   /* for chrome and safari*/
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   animation-name: slideOut;
 }
 
