@@ -8,15 +8,16 @@
         <div class="scroller">
         <h2 class="sec-title">Tutorial: Bitcoin in 2021</h2>
         <ol>
-         <li><router-link to="/">Institutional Momentum: Next year and the 1000 foot view</router-link> </li>
-        <li><router-link to="/">The Paul Tudor Jones Event</router-link> </li>
+         <li><router-link to="/preamble">Institutional Momentum: Next year and the 1000 foot view</router-link> </li>
+        <li><router-link to="/resources-main">The Paul Tudor Jones Event</router-link> </li>
         <li><router-link to="/">The Jack Dorsey Event</router-link> </li>
         <li><router-link to="/">The Dan Schulman Event</router-link> </li>
-        <li><router-link to="/">Performance of Grayscale Trust</router-link> </li>
-        <li><router-link to="/">The purchasing trends of Microstrategies</router-link> </li>
+        <li><router-link to="/">The purchasing trends of Microstrategies and GrayScale</router-link> </li>
+        <li><router-link to="/">Regulatory FUD, it's actually good.</router-link> </li>
         <li><router-link to="/">*The Mass Mutual Event</router-link> </li>
+        <li><router-link to="/">Overview: The Rise of DeFi</router-link> </li>
         <li><router-link to="/resources">Raoul Paul & the Big Picture moving forward (Crack a beer for this one)</router-link> </li>
-        <li><router-link to="/resources">The Undeniably bullish news</router-link> </li>
+        <li><router-link to="/resources">Review: The Undeniably bullish news</router-link> </li>
         </ol>
         <hr style="clear: both; opacity: 0.3" />
         <h2 class="sec-title">Getting Started</h2>
@@ -70,7 +71,7 @@
     <div class="content">
 
       <router-view v-slot="{ Component }">
-        <transition name="bounce" v-on:before-leave="beforeLeave">
+        <transition name="bounce" v-on:after-leave="afterLeave">
           <component :is="Component" />
         </transition>
       </router-view>
@@ -98,10 +99,10 @@ export default {
     onNavigate: function (r) {
       this.$router.push(r);
     },
-    beforeLeave: function(){
+    afterLeave: function(){
       document.getElementById('app').scrollIntoView();
-      if (screen.width < 768){
-        this.toggleClass();
+      if (screen.width < 1441){
+        this.isActive = false;
       }
     }
   },
@@ -139,7 +140,7 @@ body {
 
 .content {
   margin-left: 300px;
-  @media (max-width: 768px) {
+  @media (max-width: 1440px) {
     margin-left: 40px;
   }
 }
@@ -194,7 +195,7 @@ body {
 .slideIn {
   left: 0px;
   /* for chrome and safari*/
-  animation-duration: 1s;
+  animation-duration: .5s;
   animation-name: slidein;
 }
 
@@ -211,7 +212,7 @@ body {
 .slideOut {
   left: -255px;
   /* for chrome and safari*/
-  animation-duration: 1s;
+  animation-duration: .5s;
   animation-name: slideOut;
 }
 
