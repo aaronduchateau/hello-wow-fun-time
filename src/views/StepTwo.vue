@@ -21,7 +21,7 @@
              <br/><br/><br/>
              Here is a really easy video that explains how to install the metamask plugin. 
               <br/><br/><br/>
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/z9QB1lADbOs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="100%" height="315" src="https://www.youtube.com/embed/z9QB1lADbOs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <br/><br/><br/><br/>
              After you have followed the steps in the video above, and have Metamask installed in the google chrome web browser, you are ready for step 3!
 
