@@ -7,7 +7,7 @@
     </p>
     <h3>My Motive</h3>
     <p class="maxWidth500Center">
-      I am not selling a product, nor do i purpose to benefit from disseminating this information in any meaninful way. The decisions I have made over the last several years have fortunately put me in a position where I am going to be fine. For many of you however, that will not be the case. If you recieve a benefit from the information on this website, I would simply ask that you consider donating to expand the reach of this project. The resources will undoubtadly go back into perpetuating the agenda of this program.
+      I am not selling a product, nor do i purpose to benefit from disseminating this information in any meaninful way. The decisions I have made over the last several years in relationship to my interest in Bitcoin and my career as a software engineer, have fortunately put me in a position where I am likely going to be fine. For many of you however, that will not be the case. If you recieve a benefit from the information on this website, I would simply ask that you consider donating to expand the reach of this project. The resources will undoubtadly go back into perpetuating the agenda of this program.
     </p>
      <h3>Keep an open mind</h3>
     <p class="maxWidth500Center">

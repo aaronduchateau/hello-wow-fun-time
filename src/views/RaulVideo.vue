@@ -28,7 +28,7 @@ export default {
   name: "RaulVideo",
   methods: {
     onNavigateBegin: function () {
-      this.$router.push("raul-video");
+      this.$router.push("mainstream");
     },
   },
 };

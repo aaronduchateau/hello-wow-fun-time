@@ -1,7 +1,7 @@
 <template>
   <div class="resources2">
     <h3><slot name="header"></slot></h3>
-    <SimpleCard widthStyle="580px" paddingStyle="20px">
+    <SimpleCard widthStyle="380px" paddingStyle="20px">
       <h1><slot name="name"></slot></h1>
       <h2>
         <span class="hip-blue">claim to fame:</span> <slot name="claim-to-fame"></slot>

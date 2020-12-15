@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
-    <h1>Bitcoin Going Mainstream</h1>
-    <p class="maxWidth500Center">As in, Bitcoin is going mainstream...right now.</p>
+    <h1>Conclusion: </h1>
+    <h2>Even if you don't believe all the hype of the last video, for the first time in History, It is fundamentally undeniable that Bitcoin is Going Mainstream</h2>
+    <p class="maxWidth500Center">As in, Bitcoin is going mainstream...right now. That is an observable fact when you look at the <i>kind of money that is currently entering the space</i>. Let's review:</p>
     <br /><br />
     <SimpleCard styleWidth="500px">
       <span>Wall Street Journal</span> - <span class="red-date">Dec 11, 2020</span>

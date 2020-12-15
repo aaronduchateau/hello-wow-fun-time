@@ -16,7 +16,7 @@
         <li><router-link to="/">Regulatory FUD, it's actually good.</router-link> </li>
         <li><router-link to="/">*The Mass Mutual Event</router-link> </li>
         <li><router-link to="/">Overview: The Rise of DeFi</router-link> </li>
-        <li><router-link to="/resources">Raoul Paul & the Big Picture moving forward (Crack a beer for this one)</router-link> </li>
+        <li><router-link to="/core-concepts">Raoul Paul & the Big Picture moving forward (Crack a beer for this one)</router-link> </li>
         <li><router-link to="/resources">Review: The Undeniably bullish news</router-link> </li>
         </ol>
         <hr style="clear: both; opacity: 0.3" />
@@ -141,7 +141,7 @@ body {
 
 .content {
   margin-left: 300px;
-  @media (max-width: 1440px) {
+  @media (max-width: 768px) {
     margin-left: 40px;
   }
 }
