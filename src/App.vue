@@ -10,8 +10,8 @@
         <ol>
          <li><router-link to="/preamble">Institutional Momentum: Next year and the 1000 foot view</router-link> </li>
         <li><router-link to="/resources-main">The Paul Tudor Jones Event</router-link> </li>
-        <li><router-link to="/">The Jack Dorsey Event</router-link> </li>
-        <li><router-link to="/">The Dan Schulman Event</router-link> </li>
+        <li><router-link to="/jack-dorsey-2">The Jack Dorsey Event</router-link> </li>
+        <li><router-link to="/dan-schulman">The Dan Schulman Event</router-link> </li>
         <li><router-link to="/">The purchasing trends of Microstrategies and GrayScale</router-link> </li>
         <li><router-link to="/">Regulatory FUD, it's actually good.</router-link> </li>
         <li><router-link to="/">*The Mass Mutual Event</router-link> </li>
@@ -79,6 +79,7 @@
   </div>
 </template>
 <script>
+const screenWidthTrig = 1441;
 import { Menu } from "mdue";
 
 export default {
@@ -88,7 +89,7 @@ export default {
   },
   data: () => {
     return {
-      isActive: true,
+      isActive: (!screen.width < screenWidthTrig),
       hasError: false,
     };
   },
@@ -101,7 +102,7 @@ export default {
     },
     afterLeave: function(){
       document.getElementById('app').scrollIntoView();
-      if (screen.width < 1441){
+      if (screen.width < screenWidthTrig){
         this.isActive = false;
       }
     }
