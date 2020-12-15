@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p class="maxWidth500Center">
+    <h1 class="text-shadow-welcome">{{ msg }}</h1>
+    <p class="maxWidth500Center" style="display:none;">
       This is in no way meant to be financial advice, and the author of this
       content is not a licensed financial advisor. Taking financial advice from
       a dog (in general) is not usually a good idea.
@@ -45,6 +45,10 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.text-shadow-welcome {
+   text-shadow: 2px 2px  2px #ffffff;
 }
 
 .big-butt {

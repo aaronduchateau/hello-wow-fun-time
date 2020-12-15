@@ -16,6 +16,7 @@
    <br/><br/><br/>
     <a class="btn btn-blue" v-on:click="onNavigateBegin()">Next</a>
      <br/><br/><br/>
+     
 
   </div>
 </template>

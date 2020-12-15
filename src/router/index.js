@@ -20,6 +20,8 @@ import Preamble from '../views/Preamble.vue'
 import PompIntro from '../views/PompIntro.vue'
 import PompIntroTwo from '../views/PompIntroTwo.vue'
 import PompVideo from '../views/PompVideo.vue'
+import Grayscale from '../views/Grayscale.vue'
+
 
 const routes = [
   {
@@ -130,6 +132,11 @@ const routes = [
     path: '/pomp-video',
     name: 'PompVideo',
     component: PompVideo
+  },
+  {
+    path: '/grayscale',
+    name: 'Grayscale',
+    component: Grayscale
   },
   
   

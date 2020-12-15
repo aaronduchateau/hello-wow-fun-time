@@ -5,7 +5,7 @@
     </template>
     <template v-slot:name> Paul Tudor Jones </template>
     <template v-slot:claim-to-fame>
-       On May 11th, 2020 Paul Tudor Jones announced he had 1% of his net worth in bitcoin. Because of Paul Tudor Jone's background and reputation in <i>traditional finance markets</i>, this sent a shockwave of Bitcoin acceptance through traditional markets. Almost overnight, owning bitcoin wasn't silly anymore (and this all happened just six months ago).
+       On May 11th, 2020 Paul Tudor Jones announced he had 1% of his net worth in bitcoin. Because of Paul Tudor Jone's background and reputation in <i>traditional finance markets</i>, this sent a shockwave of Bitcoin acceptance through traditional markets. Almost overnight, owning bitcoin wasn't silly anymore. <i>This all happened just six short months ago.</i>
     </template>
     <template v-slot:source> yahoo finance </template>
     <template v-slot:type-of-dude>

@@ -1,98 +1,106 @@
 <template>
-  <div>
-    <div id="left-nav" class="menu" v-bind:class="[isActive ? 'slideIn' : 'slideOut']">
-      <div>
-        <h2 class="logo" @click="onNavigate('/')">The Hedge</h2>
-        <Menu class="close-icon" @click="toggleClass()"></Menu>
-        <hr style="clear: both; opacity: 0.3" />
-        <div class="scroller">
-          <h2 class="sec-title">Tutorial: Bitcoin in 2021</h2>
-          <ol>
-            <li>
-              <router-link to="/preamble"
-                >Institutional Momentum: Next year and the 1000 foot view</router-link
-              >
-            </li>
-            <li>
-              <router-link to="/resources-main">The Paul Tudor Jones Event</router-link>
-            </li>
-            <li><router-link to="/jack-dorsey-2">The Jack Dorsey Event</router-link></li>
-            <li><router-link to="/dan-schulman">The Dan Schulman Event</router-link></li>
-            <li>
-              <router-link to="/"
-                >The purchasing trends of Microstrategies and GrayScale</router-link
-              >
-            </li>
-            <li><router-link to="/">Regulatory FUD, it's actually good.</router-link></li>
-            <li><router-link to="/">*The Mass Mutual Event</router-link></li>
-            <li><router-link to="/">Overview: The Rise of DeFi</router-link></li>
-            <li>
-              <router-link to="/core-concepts"
-                >Raoul Paul & the Big Picture moving forward (Crack a beer for this
-                one)</router-link
-              >
-            </li>
-            <li>
-              <router-link to="/resources"
-                >Review: The Undeniably bullish news</router-link
-              >
-            </li>
-          </ol>
+  <div v-bind:class="[isHome ? 'main-alien-app' : 'other']"> 
+    <div class="all">
+      <div id="left-nav" class="menu" v-bind:class="[isActive ? 'slideIn' : 'slideOut']">
+        <div>
+          <h2 class="logo" @click="onNavigate('/')">The Hedge</h2>
+          <Menu class="close-icon" @click="toggleClass()"></Menu>
           <hr style="clear: both; opacity: 0.3" />
-          <h2 class="sec-title">Getting Started</h2>
-          <ol>
-            <li>
-              <router-link to="/"
-                >Example of diversified Crytpo Exposure entering 2021</router-link
-              >
-            </li>
-            <li>
-              <router-link to="/">This is complicated! Where to start?</router-link>
-            </li>
-          </ol>
-          <hr style="clear: both; opacity: 0.3" />
-          <h2 class="sec-title">The 'Normal asset' problem of 2021</h2>
-          <ol>
-            <li><router-link to="/step-one">Cash is trash</router-link></li>
-            <li><router-link to="/">Stocks are Sketch</router-link></li>
-            <li><router-link to="/">Real Estate is Complicated</router-link></li>
-            <li><router-link to="/">Bonds are Busted</router-link></li>
-            <li><router-link to="/">Gold will lose Market Share</router-link></li>
-          </ol>
+          <div class="scroller">
+            <h2 class="sec-title">Tutorial: Bitcoin in 2021</h2>
+            <ol>
+              <li>
+                <router-link to="/preamble"
+                  >Institutional Momentum: Next year and the 1000 foot view</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/resources-main">The Paul Tudor Jones Event</router-link>
+              </li>
+              <li>
+                <router-link to="/jack-dorsey-2">The Jack Dorsey Event</router-link>
+              </li>
+              <li>
+                <router-link to="/dan-schulman">The Dan Schulman Event</router-link>
+              </li>
+              <li>
+                <router-link to="/grayscale"
+                  >The purchasing trends of Microstrategies and GrayScale</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/">Regulatory FUD, it's actually good.</router-link>
+              </li>
+              <li><router-link to="/">*The Mass Mutual Event</router-link></li>
+              <li><router-link to="/">Overview: The Rise of DeFi</router-link></li>
+              <li>
+                <router-link to="/core-concepts"
+                  >Raoul Paul & the Big Picture moving forward (Crack a beer for this
+                  one)</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/resources"
+                  >Review: The Undeniably bullish news</router-link
+                >
+              </li>
+            </ol>
+            <hr style="clear: both; opacity: 0.3" />
+            <h2 class="sec-title">Getting Started</h2>
+            <ol>
+              <li>
+                <router-link to="/"
+                  >Example of diversified Crytpo Exposure entering 2021</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/">This is complicated! Where to start?</router-link>
+              </li>
+            </ol>
+            <hr style="clear: both; opacity: 0.3" />
+            <h2 class="sec-title">The 'Normal asset' problem of 2021</h2>
+            <ol>
+              <li><router-link to="/step-one">Cash is trash</router-link></li>
+              <li><router-link to="/">Stocks are Sketch</router-link></li>
+              <li><router-link to="/">Real Estate is Complicated</router-link></li>
+              <li><router-link to="/">Bonds are Busted</router-link></li>
+              <li><router-link to="/">Gold will lose Market Share</router-link></li>
+            </ol>
 
-          <hr style="clear: both; opacity: 0.3" />
-          <h2 class="sec-title">Feeds to Watch</h2>
-          <ol>
-            <li><router-link to="/">Raoul Paul</router-link></li>
-            <li><router-link to="/">Anthony Pompliano</router-link></li>
-            <li><router-link to="/">This Bullish</router-link></li>
-            <li><router-link to="/">Satoshi Dogomoto</router-link></li>
-          </ol>
-          <br /><br /><br />
+            <hr style="clear: both; opacity: 0.3" />
+            <h2 class="sec-title">Feeds to Watch</h2>
+            <ol>
+              <li><router-link to="/">Raoul Paul</router-link></li>
+              <li><router-link to="/">Anthony Pompliano</router-link></li>
+              <li><router-link to="/">This Bullish</router-link></li>
+              <li><router-link to="/">Satoshi Dogomoto</router-link></li>
+            </ol>
+            <br /><br /><br />
 
-          <hr style="clear: both; opacity: 0.3" />
-          <h2 class="sec-title">Other</h2>
-          <ol>
-            <li><router-link to="/">About</router-link></li>
-            <li><router-link to="/">Join us on Discord</router-link></li>
-          </ol>
-          <br /><br /><br />
+            <hr style="clear: both; opacity: 0.3" />
+            <h2 class="sec-title">Other</h2>
+            <ol>
+              <li><router-link to="/">About</router-link></li>
+              <li><router-link to="/">Join us on Discord</router-link></li>
+            </ol>
+            <br /><br /><br />
 
-          <router-link to="/resources">Conclusion</router-link>
-          <router-link to="/about">About</router-link>
-          <router-link to="/test-area">Test Area</router-link>
-          <router-link to="/mainstream">2021 BTC goes Mainstream</router-link>
-          <router-link to="/bullish">This is bullish</router-link>
-          <router-link to="/step-one">Step One</router-link>
+            <router-link to="/resources">Conclusion</router-link>
+            <router-link to="/about">About</router-link>
+            <router-link to="/test-area">Test Area</router-link>
+            <router-link to="/mainstream">2021 BTC goes Mainstream</router-link>
+            <router-link to="/bullish">This is bullish</router-link>
+            <router-link to="/step-one">Step One</router-link>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="content">
-      <router-view v-slot="{ Component }">
-        <transition name="bounce" v-on:after-leave="afterLeave">
-          <component :is="Component" />
-        </transition>
-      </router-view>
+      <div class="content">
+        <router-view v-slot="{ Component }">
+          <transition name="bounce" v-on:after-leave="afterLeave" v-on:before-enter="beforeEnter">
+            <component :is="Component" />
+          </transition>
+        </router-view>
+      </div>
     </div>
   </div>
 </template>
@@ -106,10 +114,30 @@ export default {
     Menu,
   },
   data: () => {
+    
     return {
       isActive: !screen.width < screenWidthTrig,
       hasError: false,
+      isHome: true,
     };
+  },
+  mounted() {
+    /*
+    const ufo = this.$el.querySelector(".all");
+
+    ufo.addEventListener("mousemove", (e) => {
+      
+      let eyes = document.querySelector(".eyes");
+      if(!eyes){
+        return false;
+      }
+      let mouseX = eyes.getBoundingClientRect().left;
+      let mouseY = eyes.getBoundingClientRect().top;
+      let radianDegrees = Math.atan2(e.pageX - mouseX, e.pageY - mouseY);
+      let rotationDegrees = radianDegrees * (180 / Math.PI) * -1 + 180;
+      eyes.style.transform = `rotate(${rotationDegrees}deg)`;
+    });
+    */
   },
   methods: {
     toggleClass: function () {
@@ -123,6 +151,15 @@ export default {
       if (screen.width < screenWidthTrig) {
         this.isActive = false;
       }
+  
+    },
+    beforeEnter: function () {
+     
+      if(this.$route.name === 'Home'){
+        this.isHome = true
+;      } else {
+  this.isHome = false
+}
     },
   },
 };
@@ -183,6 +220,19 @@ body {
   margin-right: 34px;
 }
 
+.main-alien-app-saved {
+  background-image: url("./assets/beach.png");
+  background-size: contain;
+  min-height: 100%;
+  position: fixed;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position: center;
+ background-color:rgba(0, 0, 0, 0.5);
+
+}
+
 .menu {
   min-width: 300px;
   max-width: 300px;
@@ -210,7 +260,7 @@ body {
     opacity: 0.7;
     &.router-link-exact-active {
       opacity: 1;
-      text-shadow: 2px 2px 8px #ff0000;
+      text-shadow: 2px 2px 8px #000;
     }
     &:hover {
       color: #ffffff;

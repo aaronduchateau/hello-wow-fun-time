@@ -2,6 +2,8 @@
   <div class="home">
     <br/> <br/>
     <HelloWorld msg="Welcome to 'the Hedge'"/>
+  
+   
     <div class="space80" />
     <div src="../assets/doge-thinks.png" class="doge">
     <div><div class="btc-price-contain">One Bitcoin is <br/><h2 style="padding-left: 50px;">${{ info }}</h2>
@@ -19,16 +21,32 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 import axios from 'axios'
 
+
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    HelloWorld,
+  
   },
   data () {
+ 
     return {info: 'loading...'}
   },
   mounted () {
-    console.log('wtf');
+    /*
+     const ufo = this.$el.querySelector('.ufo');
+
+ufo.addEventListener('mousemove', (e) => {
+  console.log('wtf');
+  let eyes = document.querySelector('.eyes');
+  let mouseX = (eyes.getBoundingClientRect().left); 
+  let mouseY = (eyes.getBoundingClientRect().top);
+  let radianDegrees = Math.atan2(e.pageX - mouseX, e.pageY - mouseY);
+  let rotationDegrees = (radianDegrees * (180/ Math.PI) * -1) + 180;
+  eyes.style.transform = `rotate(${rotationDegrees}deg)`
+});
+*/
+    
     axios
       .get('https://api.coindesk.com/v1/bpi/currentprice.json')
       .then(response => (this.info = response.data.bpi.USD.rate))
