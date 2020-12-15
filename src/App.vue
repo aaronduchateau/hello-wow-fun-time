@@ -100,6 +100,9 @@ export default {
     },
     beforeLeave: function(){
       document.getElementById('app').scrollIntoView();
+      if (screen.width < 768){
+        this.toggleClass();
+      }
     }
   },
 };
