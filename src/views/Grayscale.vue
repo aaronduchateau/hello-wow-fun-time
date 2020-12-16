@@ -27,6 +27,9 @@
         <br />
         During the last week of June 2020, Grayscale had purchased Bitcoin (BTC) about 3x faster, on average, than the cryptocurrency’s miners could actually generate new blocks. 184 million of it's reserves were purchased in the last week of June alone. There is a massive supply shortage for Bitcoin, and that will trigger a price movement as soon as off the market reserves dry up. 
 <h2>There is no way around it, as long as these fundamentals hold, the days of Bitcoin under 20k are numbered</h2>  
+      <br /><br />
+     <a class="btn btn-blue" v-on:click="onNavigateBegin()">Next</a>
+      <br /><br />
      </div>
     </div>
   </div>
@@ -37,7 +40,7 @@ export default {
   name: "Grayscale",
   methods: {
     onNavigateBegin: function () {
-       this.$router.push("step-two");
+       this.$router.push("regs");
     },
   },
 };

@@ -21,6 +21,10 @@ import PompIntro from '../views/PompIntro.vue'
 import PompIntroTwo from '../views/PompIntroTwo.vue'
 import PompVideo from '../views/PompVideo.vue'
 import Grayscale from '../views/Grayscale.vue'
+import Regs from '../views/Regs.vue'
+import MassMutual from '../views/MassMutual.vue'
+import DeFi from '../views/DeFi.vue'
+import Donate from '../views/Donate.vue'
 
 
 const routes = [
@@ -138,6 +142,29 @@ const routes = [
     name: 'Grayscale',
     component: Grayscale
   },
+  {
+    path: '/regs',
+    name: 'Regs',
+    component: Regs
+  },
+  {
+    path: '/mass-mutual',
+    name: 'MassMutual',
+    component: MassMutual
+  },
+  {
+    path: '/defi',
+    name: 'DeFi',
+    component: DeFi
+  },
+  {
+    path: '/donate',
+    name: 'Donate',
+    component: Donate
+  },
+
+ 
+
   
   
 ]

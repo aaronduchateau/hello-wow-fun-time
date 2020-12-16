@@ -29,10 +29,10 @@
                 >
               </li>
               <li>
-                <router-link to="/">Regulatory FUD, it's actually good.</router-link>
+                <router-link to="/regs">Regulatory FUD, it's actually good.</router-link>
               </li>
-              <li><router-link to="/">*The Mass Mutual Event</router-link></li>
-              <li><router-link to="/">Overview: The Rise of DeFi</router-link></li>
+              <li><router-link to="/mass-mutual">*The Mass Mutual Event</router-link></li>
+              <li><router-link to="/defi">Overview: The Rise of DeFi</router-link></li>
               <li>
                 <router-link to="/core-concepts"
                   >Raoul Paul & the Big Picture moving forward (Crack a beer for this

@@ -1,16 +1,16 @@
 <template>
   <div class="resources2">
-    <h3><slot name="header"></slot></h3>
+    <h4 style="padding: 40px;"><slot name="header"></slot></h4>
     <SimpleCard widthStyle="380px" paddingStyle="20px">
       <h1><slot name="name"></slot></h1>
-      <h2>
+      <h3>
         <span class="hip-blue">claim to fame:</span> <slot name="claim-to-fame"></slot>
-      </h2>
+      </h3>
       <blockquote><slot name="source"></slot></blockquote>
       <slot name="content"></slot>
-      <h2>
+      <h3>
         <span class="hip-blue">type of dude:</span><slot name="type-of-dude"></slot>
-      </h2>
+      </h3>
       <h2>
         <span class="hip-blue">'the Hedge' credibility rating:</span>
         <slot name="rating"></slot> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span

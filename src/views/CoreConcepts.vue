@@ -1,5 +1,13 @@
 <template>
   <div class="hello">
+    <h1>One more time</h1>
+    <h3 class="maxWidth500Center">If you made it this far your brain has already probably had to stretch quite a long way to wrap you head around some of these concepts.</h3>
+    <br/>
+    I'm impressed! Most people would have given up by now!<br/>
+    <br/>
+    <p class="maxWidth500Center">
+      We're almost done with the tutorial, but i'm going to ask you to put your 'futurist' hat on and go down one last rabbit hole. The following video leverages the information before this page, so it is helpful if you have arrived her organically through the tutorial.
+    </p>
     <h1>Core Concepts</h1>
     <h3>Macro Economics</h3>
     <p class="maxWidth500Center">
@@ -23,6 +31,7 @@
     </p>
     <br /><br />
     <a class="btn btn-blue" v-on:click="onNavigateBegin()">Next</a>
+     <br /><br /> <br /><br /> <br /><br />
 
   </div>
 </template>
