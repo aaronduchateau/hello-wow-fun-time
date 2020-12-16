@@ -15,14 +15,9 @@
                 >
               </li>
               <li>
-                <router-link to="/resources-main">The Paul Tudor Jones Event</router-link>
+                <router-link to="/signal">Acceptance: The 3 Signals</router-link>
               </li>
-              <li>
-                <router-link to="/jack-dorsey-2">The Jack Dorsey Event</router-link>
-              </li>
-              <li>
-                <router-link to="/dan-schulman">The Dan Schulman Event</router-link>
-              </li>
+             
               <li>
                 <router-link to="/grayscale"
                   >The purchasing trends of Microstrategies and GrayScale</router-link
@@ -40,7 +35,7 @@
                 >
               </li>
               <li>
-                <router-link to="/resources"
+                <router-link to="/mainstream"
                   >Review: The Undeniably bullish news</router-link
                 >
               </li>
@@ -49,7 +44,7 @@
             <h2 class="sec-title">Getting Started</h2>
             <ol>
               <li>
-                <router-link to="/"
+                <router-link to="/what-to-buy"
                   >Example of diversified Crytpo Exposure entering 2021</router-link
                 >
               </li>
@@ -227,15 +222,13 @@ body {
 }
 
 .main-alien-app-saved {
-  background-image: url("./assets/beach.png");
+  background-image: url("./assets/sdogodark.jpg");
   background-size: contain;
   min-height: 100%;
-  position: fixed;
+ 
   width: 100%;
   background-repeat: no-repeat;
-  background-size: 750px;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  
 }
 
 .menu {

@@ -25,6 +25,9 @@ import Regs from '../views/Regs.vue'
 import MassMutual from '../views/MassMutual.vue'
 import DeFi from '../views/DeFi.vue'
 import Donate from '../views/Donate.vue'
+import Signal from '../views/Signal.vue'
+import WhatToBuy from '../views/WhatToBuy.vue'
+
 
 
 const routes = [
@@ -162,6 +165,18 @@ const routes = [
     name: 'Donate',
     component: Donate
   },
+  {
+    path: '/signal',
+    name: 'Signal',
+    component: Signal
+  },
+  {
+    path: '/what-to-buy',
+    name: 'WhatToBuy',
+    component: WhatToBuy
+  },
+
+  
 
  
 

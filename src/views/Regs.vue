@@ -1,9 +1,9 @@
 <template>
   <div class="full-page-holder">
     <div class="instructions">
-      <h1>What if they ban bitcoin?</h1>
+      <h1>Regulatory FUD</h1>
       <div class="maxWidth500Center">
-        <h2>The regulations are coming, but the reality is...they can't ban it.</h2>
+        <h2>The regulations are coming, and that's good.</h2>
         <img class="instructions-img" src="../assets/mnuchin.jpg" />
         <p>
           The SEC is an extremely tricky place when it comes to cryptocurrency regulation.

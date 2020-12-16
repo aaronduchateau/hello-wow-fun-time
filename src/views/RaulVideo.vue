@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello maxWidth500Center">
     <br /><br />
     <p class="maxWidth500Center">
       The following clip was released on Dec 7th, 2020. If you can ignore the silly music

@@ -26,7 +26,7 @@ export default {
   name: "Preamble",
   methods: {
     onNavigateBegin: function () {
-      this.$router.push("pomp-intro");
+      this.$router.push("pomp-intro-two");
     },
   },
 };

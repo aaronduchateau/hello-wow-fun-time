@@ -1,16 +1,14 @@
 <template>
-  <div class="hello">
+  <div class="hello maxWidth500Center">
     <br /><br />
     <p class="maxWidth500Center">
-      ( I know, I know,...The title slide to this video makes me want to gouge my eyes out, but unfortunately until we go full mainstream, these are the kind of attention grabbing splash pages some of these guys still use. Try to ignore that and focus on the content.)
-      <br /><br />
-      <b>Enjoy!</b>
+      A birds eye view of Bitcoin in 2021.
     </p>
     <br /><br />
     <iframe
       width="100%"
       height="315"
-      src="https://www.youtube.com/embed/uvSM3y_BdS8"
+      src="https://www.youtube.com/embed/uvSM3y_BdS8?&autoplay=1"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
@@ -31,7 +29,7 @@ export default {
   name: "PompVideo",
   methods: {
     onNavigateBegin: function () {
-      this.$router.push("resources-main");
+      this.$router.push("signal");
     },
   },
 };

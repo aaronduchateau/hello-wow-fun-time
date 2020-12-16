@@ -10,6 +10,7 @@
     <br /><br />
     <p class="maxWidth500Center">
       You can buy before or after that happens. That part is up to you.
+       <i>While I cannot offer financial advice, I am happy to help when i can. If you would like to have a conversation about the cryptocurrency ecosystem, please email: <a href="mailto:foisgrasfauxpas@gmail.com" target="_blank">foisgrasfauxpas@gmail.com</a>, with attn: to Satoshi Dogomoto</i>
     </p>
     <br /><br />
     <div class="hello-holder">
