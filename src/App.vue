@@ -1,11 +1,11 @@
 <template>
-  <div v-bind:class="[isHome ? 'main-alien-app' : 'other']"> 
+  <div v-bind:class="[isHome ? 'main-alien-app' : 'other']">
     <div class="all">
       <div id="left-nav" class="menu" v-bind:class="[isActive ? 'slideIn' : 'slideOut']">
-        <div>
-          <h2 class="logo" @click="onNavigate('/')">The Hedge</h2>
-          <Menu class="close-icon" @click="toggleClass()"></Menu>
-          <hr style="clear: both; opacity: 0.3" />
+        <h2 class="logo" @click="onNavigate('/')">The Hedge</h2>
+        <Menu class="close-icon" @click="toggleClass()"></Menu>
+        <hr style="clear: both; opacity: 0.3" />
+        <div id="scroller-holder">
           <div class="scroller">
             <h2 class="sec-title">Tutorial: Bitcoin in 2021</h2>
             <ol>
@@ -96,7 +96,11 @@
       </div>
       <div class="content">
         <router-view v-slot="{ Component }">
-          <transition name="bounce" v-on:after-leave="afterLeave" v-on:before-enter="beforeEnter">
+          <transition
+            name="bounce"
+            v-on:after-leave="afterLeave"
+            v-on:before-enter="beforeEnter"
+          >
             <component :is="Component" />
           </transition>
         </router-view>
@@ -105,7 +109,8 @@
   </div>
 </template>
 <script>
-const screenWidthTrig = 1441;
+const screenWidthTrig = 768;
+const windowWidth = window.innerWidth;
 import { Menu } from "mdue";
 
 export default {
@@ -114,9 +119,8 @@ export default {
     Menu,
   },
   data: () => {
-    
     return {
-      isActive: !screen.width < screenWidthTrig,
+      isActive: screen.width > screenWidthTrig,
       hasError: false,
       isHome: true,
     };
@@ -148,24 +152,26 @@ export default {
     },
     afterLeave: function () {
       document.getElementById("app").scrollIntoView();
-      if (screen.width < screenWidthTrig) {
+      if (windowWidth < screenWidthTrig) {
         this.isActive = false;
       }
-  
     },
     beforeEnter: function () {
-     
-      if(this.$route.name === 'Home'){
-        this.isHome = true
-;      } else {
-  this.isHome = false
-}
+      if (this.$route.name === "Home") {
+        this.isHome = true;
+      } else {
+        this.isHome = false;
+      }
     },
   },
 };
 </script>
 
 <style lang="scss">
+#scroller-holder {
+  overflow-y: scroll;
+  max-height: 100%;
+}
 .logo {
   float: left;
   margin-left: 20px;
@@ -229,8 +235,7 @@ body {
   background-repeat: no-repeat;
   background-size: 750px;
   background-position: center;
- background-color:rgba(0, 0, 0, 0.5);
-
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .menu {

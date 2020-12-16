@@ -3,7 +3,7 @@
     <h1>Conclusion:</h1>
     <h2 style="max-width: 800px; margin: 0 auto">
       It is becoming increasingly difficult to make the argument that Bitcoin is not going
-      mainstream. It will likely be part of your 401k, your plan with fidelity, something
+      mainstream. It will likely be part of your 401k, your plan with Fidelity, something
       that will be 'irresponsible' not to own. <br /><br />Soon Bitcoin will be
       <i>boring.</i>
     </h2>
