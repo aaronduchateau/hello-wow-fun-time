@@ -33,6 +33,9 @@ import RealEstate from '../views/RealEstate.vue'
 import Bonds from '../views/Bonds.vue'
 import Gold from '../views/Gold.vue'
 import Help from '../views/Help.vue'
+import AnthonyTweet from '../views/AnthonyTweet.vue'
+import SatoshiTweet from '../views/SatoshiTweet.vue'
+import RaulTweet from '../views/RaulTweet.vue'
 
 
 
@@ -216,6 +219,27 @@ const routes = [
     path: '/gold',
     name: 'Gold',
     component: Gold
+  },
+
+  
+
+
+
+
+  {
+    path: '/atweet',
+    name: 'Atweet',
+    component: AnthonyTweet
+  },
+  {
+    path: '/rtweet',
+    name: 'Rtweet',
+    component: RaulTweet
+  },
+  {
+    path: '/stweet',
+    name: 'Stweet',
+    component: SatoshiTweet
   },
 
   

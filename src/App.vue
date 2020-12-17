@@ -67,12 +67,12 @@
             <hr style="clear: both; opacity: 0.3" />
             <h2 class="sec-title">Feeds to Watch</h2>
             <ol>
-              <li><router-link to="/">Raoul Paul</router-link></li>
-              <li><router-link to="/">Anthony Pompliano</router-link></li>
-              <li><router-link to="/">This Bullish</router-link></li>
-              <li><router-link to="/">Satoshi Dogomoto</router-link></li>
+              <li><router-link to="/rtweet">Raoul Paul</router-link></li>
+              <li><router-link to="/atweet">Anthony Pompliano</router-link></li>
+              <li><router-link to="/bullish">This Bullish</router-link></li>
+              <li><router-link to="/stweet">Satoshi Dogomoto</router-link></li>
             </ol>
-            <br /><br /><br />
+          
 
             <hr style="clear: both; opacity: 0.3" />
             <h2 class="sec-title">Other</h2>
@@ -80,7 +80,7 @@
               <li><router-link to="/help">About</router-link></li>
               <li><router-link to="/">Join us on Discord</router-link></li>
             </ol>
-            <br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br />
           </div>
         </div>
       </div>
@@ -97,8 +97,8 @@
         <div>
           <br /><br /><br /><br /><br /><br />
           <br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br />
+          
           <div>
             questions? <br /><a href="satoshidogomoto@gmail.com" target="_blank"
               >satoshidogomoto@gmail.com</a

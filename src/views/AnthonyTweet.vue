@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-    <h1>This is Bullish</h1>
-    <p>This is just the twitter feed of some dude who finds bullish bitcoin shit and tweets about it. I love it.</p>
-    <a data-width="500" class="twitter-timeline" href="https://twitter.com/thisisbullish?ref_src=twsrc%5Etfw">Tweets by thisisbullish</a>
+    <h1>Anthony Pompliano</h1>
+    <p>Another solid Macro / "BTC aware" homie to follow.</p>
+    <a data-width="500" class="twitter-timeline" href="https://twitter.com/APompliano?ref_src=twsrc%5Etfw">Tweets by thisisbullish</a>
     
   </div>
 </template>
