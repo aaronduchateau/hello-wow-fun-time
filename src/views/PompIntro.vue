@@ -9,7 +9,7 @@
     <br />
      <h2>Market Cap</h2>
     <p class="maxWidth500Center">
-        The number of shares (or 'coins') multipled by the number of those shares. This is a metric that is used to evaluate the value of an asset. 
+      Market Capitalization is the total number of issued shares (or 'coins') multiplied by the value of an individual share. This is a metric that is used to evaluate the total market value of an asset.
     </p>
     <br />
      <h2>2% Inflation Targets</h2>
