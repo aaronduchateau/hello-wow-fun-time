@@ -78,7 +78,10 @@
             <h2 class="sec-title">Other</h2>
             <ol>
               <li><router-link to="/help">About</router-link></li>
-              <li><router-link to="/">Join us on Discord</router-link></li>
+              <li><a
+              href="https://discord.gg/DmV23YMUbJ"
+              target="_blank"
+              >Join us on Discord</a></li>
             </ol>
             <br /><br /><br /><br /><br /><br /><br /><br /><br />
           </div>
@@ -100,14 +103,14 @@
           <br /><br /><br /><br />
           
           <div>
-            questions? <br /><a href="satoshidogomoto@gmail.com" target="_blank"
+            questions? <br /><a href="mailto:satoshidogomoto@gmail.com" target="_blank"
               >satoshidogomoto@gmail.com</a
             >
           </div>
           <br /><br />
           <div>
             join the conversation on discord: <br /><a
-              href="satoshidogomoto@gmail.com"
+              href="https://discord.gg/DmV23YMUbJ"
               target="_blank"
               >https://discord.gg/DmV23YMUbJ</a
             >
