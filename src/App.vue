@@ -17,7 +17,7 @@
               <li>
                 <router-link to="/signal">Acceptance: The 3 Signals</router-link>
               </li>
-             
+
               <li>
                 <router-link to="/grayscale"
                   >The purchasing trends of Microstrategies and GrayScale</router-link
@@ -49,17 +49,19 @@
                 >
               </li>
               <li>
-                <router-link to="/">This is complicated! Where to start?</router-link>
+                <router-link to="/help">This is complicated! Where to start?</router-link>
               </li>
             </ol>
             <hr style="clear: both; opacity: 0.3" />
             <h2 class="sec-title">The 'Normal asset' problem of 2021</h2>
             <ol>
-              <li><router-link to="/step-one">Cash is trash</router-link></li>
-              <li><router-link to="/">Stocks are Sketch</router-link></li>
-              <li><router-link to="/">Real Estate is Complicated</router-link></li>
-              <li><router-link to="/">Bonds are Busted</router-link></li>
-              <li><router-link to="/">Gold will lose Market Share</router-link></li>
+              <li><router-link to="/cash">Cash is trash</router-link></li>
+              <li><router-link to="stocks">Stocks are Sketch</router-link></li>
+              <li>
+                <router-link to="/real-estate">Real Estate is Complicated</router-link>
+              </li>
+              <li><router-link to="/bonds">Bonds are Busted</router-link></li>
+              <li><router-link to="/gold">Gold is Gone</router-link></li>
             </ol>
 
             <hr style="clear: both; opacity: 0.3" />
@@ -75,17 +77,10 @@
             <hr style="clear: both; opacity: 0.3" />
             <h2 class="sec-title">Other</h2>
             <ol>
-              <li><router-link to="/">About</router-link></li>
+              <li><router-link to="/help">About</router-link></li>
               <li><router-link to="/">Join us on Discord</router-link></li>
             </ol>
             <br /><br /><br />
-
-            <router-link to="/resources">Conclusion</router-link>
-            <router-link to="/about">About</router-link>
-            <router-link to="/test-area">Test Area</router-link>
-            <router-link to="/mainstream">2021 BTC goes Mainstream</router-link>
-            <router-link to="/bullish">This is bullish</router-link>
-            <router-link to="/step-one">Step One</router-link>
           </div>
         </div>
       </div>
@@ -99,6 +94,26 @@
             <component :is="Component" />
           </transition>
         </router-view>
+        <div>
+          <br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br /><br />
+          <div>
+            questions? <br /><a href="satoshidogomoto@gmail.com" target="_blank"
+              >satoshidogomoto@gmail.com</a
+            >
+          </div>
+          <br /><br />
+          <div>
+            join the conversation on discord: <br /><a
+              href="satoshidogomoto@gmail.com"
+              target="_blank"
+              >https://discord.gg/DmV23YMUbJ</a
+            >
+          </div>
+          <br /><br /><br /><br /><br /><br />
+        </div>
       </div>
     </div>
   </div>
@@ -225,10 +240,9 @@ body {
   background-image: url("./assets/sdogodark.jpg");
   background-size: contain;
   min-height: 100%;
- 
+
   width: 100%;
   background-repeat: no-repeat;
-  
 }
 
 .menu {

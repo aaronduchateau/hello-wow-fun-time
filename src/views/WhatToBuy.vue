@@ -1,8 +1,8 @@
 <template>
   <div class="hello maxWidth500Center">
     <br /><br />
-    <p class="maxWidth500Center">
-      Disclaimer: I am not a financial advisor and this is not financial advice. I am simply a <a href="/#/donate">shiba inu</a> who pays attention to this space, and any decisions you make regarding the information you recieve on this website should be discussed with a licensed financial advisor.
+    <p class="maxWidth500Center" style="border: 1px solid red !important; display: block; padding: 10px">
+      Disclaimer: I am not a financial advisor and this is not financial advice. I am simply a <a href="/#/donate">shiba inu</a> who obsessively pays attention to this space, and any decisions you make regarding the information you recieve on this website should be discussed with a licensed financial advisor.
     </p>
     <h1>What to own</h1>
     <h3>1) Bitcoin (BTC)</h3>
@@ -19,15 +19,23 @@
       <i>Navigating this space is extremely complex, and you should not visit invidual websites and try to make investment decisions based off of 'what looks cool'. Exposure to this part of the cryptocurrency ecosystem can have a massive upside, but picking the 'winners' is extremely difficult.</i>
       
     </p>
-    <br /><br />
+    <br />
+     <h3>4) Probably some other shit</h3>
+    <br /><br /> <h3>....</h3><br /><br />
     <p class="maxWidth500Center">
-      <i>While I cannot offer financial advice, I am happy to help when i can. If you would like to have a conversation about the cryptocurrency ecosystem, please email: <a href="mailto:foisgrasfauxpas@gmail.com" target="_blank">foisgrasfauxpas@gmail.com</a>, with attn: to</i>
+      <i>While I cannot offer financial advice, I am happy to help when i can. If you would like to have a conversation about the cryptocurrency ecosystem, please email: <a href="satoshidogomoto@gmail.com" target="_blank">satoshidogomoto@gmail.com</a>, with attn: to</i>
       <br /><br /><br /><br />
+      
       <img src="../assets/sig.png" class="step-img-resource-qr" />
-     <br /><br />
+     <br />
     </p>
+   
+   
  <div>
-      <i>Satoshi Dogomoto</i></div>   
+      <i>Satoshi Dogomoto</i></div> 
+      <br /><br />  
+       <a class="btn btn-blue" v-on:click="onNavigateBegin()">Next</a>
+    <br /><br />
       <br /><br /><br /><br /><br /><br />
   </div>
 </template>
@@ -37,7 +45,7 @@ export default {
   name: "PompVideo",
   methods: {
     onNavigateBegin: function () {
-      this.$router.push("signal");
+      this.$router.push("help");
     },
   },
 };

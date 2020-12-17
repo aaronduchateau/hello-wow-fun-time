@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello maxWidth500Center">
     <h1>Conclusion:</h1>
     <h2 style="max-width: 800px; margin: 0 auto">
       It is becoming increasingly difficult to make the argument that Bitcoin is not going
@@ -10,21 +10,32 @@
     <br /><br />
     <p class="maxWidth500Center">
       You can buy before or after that happens. That part is up to you.
-       <i>While I cannot offer financial advice, I am happy to help when i can. If you would like to have a conversation about the cryptocurrency ecosystem, please email: <a href="mailto:foisgrasfauxpas@gmail.com" target="_blank">foisgrasfauxpas@gmail.com</a>, with attn: to Satoshi Dogomoto</i>
-    </p>
+      <i
+        >While I cannot offer financial advice, I am happy to help when i can. If you
+        would like to have a conversation about the cryptocurrency ecosystem, please
+        email:
+        <a href="mailto:satoshidogomoto@gmail.com" target="_blank"
+          >satoshidogomoto@gmail.com</a
+        >, with attn: to Satoshi Dogomoto</i
+      >
+
+     
+    </p> <br /><br /><h1>C'mon:</h1>
     <br /><br />
     <div class="hello-holder">
       <SimpleCard styleWidth="500px">
-        <span>Wall Street Journal</span> - <span class="red-date">Dec 11, 2020</span>
-        <h2>The Wealthy Are Jumping Into Bitcoin as Stigma Around Crypto Fades</h2>
+        <span>Northern Trust Website</span> - <span class="red-date">Dec 16, 2020</span>
+        <h2>
+          Standard Chartered and Northern Trust partner to launch Zodia, a cryptocurrency
+          custodian for institutional investors
+        </h2>
         <p class="maxWidth500Center">
-          "With Bitcoin surging more than 270% since March, the rich are ratcheting up
-          investments in digital currencies and anticipating further gains."
+          "13.1 Trillion dollars of custody. That's all you need to know. 13.1 Trillion"
         </p>
 
         <a
           class="btn btn-blue"
-          href="https://www.bloomberg.com/news/articles/2020-12-11/bitcoin-btc-rich-investors-are-jumping-into-cryptocurrencies-as-stigma-fades"
+          href="https://www.northerntrust.com/united-states/pr/2020/standard-chartered-northern-trust-launch-zodia"
           target="_blank"
           >View</a
         >
@@ -104,11 +115,14 @@
       <br />
       <br />
       <SimpleCard styleWidth="500px">
-        <span>Wall Street Journal</span> - <span class="red-date">Dec 10, 2020</span>
-        <h2>MassMutual Joins the Bitcoin Club With $100 Million Purchase</h2>
+        <span>CNBC</span> - <span class="red-date">Oct 8, 2020</span>
+        <h2>
+          Square buys $50 million in bitcoin, says cryptocurrency ‘aligns with company’s
+          purpose’
+        </h2>
         <p class="maxWidth500Center">
-          "Investment is latest sign of mainstream acceptance for upstart digital
-          currency"
+          "This represents about 1% of Square’s total assets as of the end of the second
+          quarter of 2020."
         </p>
 
         <a class="btn btn-blue" v-on:click="onNavigateBegin()">View</a>
@@ -116,19 +130,13 @@
       <br />
       <br />
       <br />
-      <SimpleCard styleWidth="500px">
-        <span>Wall Street Journal</span> - <span class="red-date">Dec 10, 2020</span>
-        <h2>MassMutual Joins the Bitcoin Club With $100 Million Purchase</h2>
-        <p class="maxWidth500Center">
-          "Investment is latest sign of mainstream acceptance for upstart digital
-          currency"
-        </p>
-
-        <a class="btn btn-blue" v-on:click="onNavigateBegin()">View</a>
-      </SimpleCard>
+  <h1>...there is so much more</h1>
+    <h3>I'm trying to launch this site tonight, but trust me...stories about institutional money entering this new asset class have only just begun.</h3>
     </div>
     <br />
     <br />
+    <a class="btn btn-blue" v-on:click="onNavigateBegin()">Next</a>
+    <br /><br />
     <br />
     <br /><br />
   </div>
@@ -139,7 +147,7 @@ export default {
   name: "Mainstream",
   methods: {
     onNavigateBegin: function () {
-      this.$router.push("raul-intro");
+      this.$router.push("what-to-buy");
     },
   },
 };

@@ -27,6 +27,13 @@ import DeFi from '../views/DeFi.vue'
 import Donate from '../views/Donate.vue'
 import Signal from '../views/Signal.vue'
 import WhatToBuy from '../views/WhatToBuy.vue'
+import Cash from '../views/Cash.vue'
+import Stocks from '../views/Stocks.vue'
+import RealEstate from '../views/RealEstate.vue'
+import Bonds from '../views/Bonds.vue'
+import Gold from '../views/Gold.vue'
+import Help from '../views/Help.vue'
+
 
 
 
@@ -175,11 +182,46 @@ const routes = [
     name: 'WhatToBuy',
     component: WhatToBuy
   },
+  {
+    path: '/cash',
+    name: 'Cash',
+    component: Cash
+  },
+  {
+    path: '/stocks',
+    name: 'Stocks',
+    component: Stocks
+  },
+  {
+    path: '/real-estate',
+    name: 'RealEstate',
+    component: RealEstate
+  },
+  {
+    path: '/bonds',
+    name: 'bonds',
+    component: Bonds
+  },
+  {
+    path: '/gold',
+    name: 'gold',
+    component: Gold
+  },
+  {
+    path: '/help',
+    name: 'Help',
+    component: Help
+  },
+  {
+    path: '/gold',
+    name: 'Gold',
+    component: Gold
+  },
 
   
 
  
-
+  
   
   
 ]
