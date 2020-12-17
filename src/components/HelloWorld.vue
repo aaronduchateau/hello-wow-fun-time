@@ -1,13 +1,13 @@
 <template>
   <div class="hello">
-    <h1 class="text-shadow-welcome">{{ msg }}</h1>
+    <h1 class="text-shadow-welcome title-head">{{ msg }}</h1>
     <p class="maxWidth500Center" style="display:none;">
       This is in no way meant to be financial advice, and the author of this
       content is not a licensed financial advisor. Taking financial advice from
       a dog (in general) is not usually a good idea.
     </p>
     <br /><br />
-    <a class="btn btn-blue" v-on:click="onNavigateBegin()">Let's Begin</a>
+    <a class="btn btn-blue btn-head" v-on:click="onNavigateBegin()">Let's Begin</a>
     <br />
     <br />
     <br />
@@ -32,6 +32,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.title-head {
+   @media (max-width: 768px) {
+    font-size: 1.9em;
+  }
+}
+.btn-head {
+   @media (max-width: 768px) {
+    font-size: 1.9em;
+  }
+}
 h3 {
   margin: 40px 0 0;
 }
