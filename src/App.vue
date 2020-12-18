@@ -115,6 +115,10 @@
               >https://discord.gg/DmV23YMUbJ</a
             >
           </div>
+          <br /><br />
+          <br /><br />
+          <br /><br />
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.cointuts.com" class="btn btn-blue" target="_blank">share on facebook</a>
           <br /><br /><br /><br /><br /><br />
         </div>
       </div>
