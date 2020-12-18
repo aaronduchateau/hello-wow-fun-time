@@ -1,7 +1,7 @@
 <template>
   <div class="full-page-holder">
     <div class="instructions">
-      <h1>More Fundamentals</h1>
+      <h1>Chapter 3:</h1>
       <div class="maxWidth500Center">
         <h2>The performance of Grayscale trust (GBTC) in 2020</h2>  
         <p>Grayscale trust (GBTC) allows exposure to cryptocurrency assets under a traditional ticker symbol on the NYSE. Year-to-date GBTC is up over 100% and now holds over half a million bitcoin.</p>

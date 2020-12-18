@@ -1,8 +1,9 @@
 <template>
   <div class="full-page-holder">
     <div class="instructions">
-      <h1>The Mass Mutual buy</h1>
+      <h1>Chapter 5:</h1>
       <div class="maxWidth500Center">
+        <h2>The Mass Mutual buy:</h2>
         <h2>
           This is perhaps the most important event for Bitcoin in 2020...and it just
           happened.

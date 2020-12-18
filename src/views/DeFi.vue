@@ -1,8 +1,9 @@
 <template>
   <div class="full-page-holder">
     <div class="instructions">
-      <h1>The birth of DeFi</h1>
+      <h1>Chapter 6:</h1>
       <div class="maxWidth500Center">
+          <h2>The birth of DeFi:</h2>
         <h2>
           People have no idea how fast Decentralized Finance is going to be making it's
           entrance on the global stage.
