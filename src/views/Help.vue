@@ -32,13 +32,16 @@
     <p>Oh jesus...I thought we were done for the day!...</p>
     <br /><br />
     <br /><br />
-    
+  
     <a class="btn btn-blue" v-on:click="onNavigateBegin()">Next</a>
+   
       <br/><br/><br/><br/>
     <br/><br/>
-    <hr/>
+ 
     <br/><br/>  <br/><br/>
+      <SimpleCard>
     <Donate />
+     </SimpleCard>
     <br /><br />
   </div>
 </template>
@@ -47,10 +50,11 @@
 // @ is an alias to /src
 import axios from "axios";
 import Donate from '../views/Donate.vue'
+import SimpleCard from "@/components/SimpleCard.vue";
 
 export default {
   name: "Help",
-  components: {Donate},
+  components: {Donate, SimpleCard},
   data() {
     return { info: "loading..." };
   },
