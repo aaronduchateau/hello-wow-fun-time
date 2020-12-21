@@ -21,6 +21,11 @@
     </p>
     <br />
      <h3>4) Probably some other shit</h3>
+
+ <br /><br /> 
+ <p class="maxWidth500Center" style="border: 1px solid red !important; display: block; padding: 10px">
+     If you are ready to purchase, I recommend buying Bitcoin on <a href="https://r.kraken.com/c/2601920/696580/10583" target="blank" id="696580">Kraken</a> because the turn around time is quick, and you are allowed to send what you purchase off of their system and onto your own hardware wallet. Just like with real gold, if you don't actualy 'own' it, you just own a record in a database that says you do. Not your keys, not your crypto!
+    </p>
     <br /><br /> <h3>....</h3><br /><br />
     <p class="maxWidth500Center">
       <i>While I cannot offer financial advice, I am happy to help when i can. If you would like to have a conversation about the cryptocurrency ecosystem, please email: <a href="satoshidogomoto@gmail.com" target="_blank">satoshidogomoto@gmail.com</a>, with attn: to</i>

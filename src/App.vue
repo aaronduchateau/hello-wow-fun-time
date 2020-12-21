@@ -113,14 +113,18 @@
               href="https://discord.gg/DmV23YMUbJ"
               target="_blank"
               >https://discord.gg/DmV23YMUbJ</a
-            > test
+            > 
           </div>
           <br /><br />
+           Buy Bitcoin on <a href="https://r.kraken.com/c/2601920/696580/10583" target="_top" id="696580">Kraken</a>
           <br /><br />
           <br /><br />
           <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.cointuts.com" class="btn btn-blue" target="_blank">share on facebook</a>
           <br /><br /><br /><br /><br /><br />
-          <a href="https://r.kraken.com/c/2601920/696580/10583" target="_top" id="696580"><img src="//a.impactradius-go.com/display-ad/10583-696580" border="0" alt="" width="300" height="250"/></a><img height="0" width="0" src="https://imp.pxf.io/i/2601920/696580/10583" style="position:absolute;visibility:hidden;" border="0" />
+         
+           <p class="maxWidth500Center" style="border: 1px solid red !important; display: block; padding: 10px">
+     If you are ready to purchase, I recommend buying Bitcoin on <a href="https://r.kraken.com/c/2601920/696580/10583" target="blank" id="696580">Kraken</a> because the turn around time is quick, and you are allowed to send what you purchase off of their system and onto your own hardware wallet. Just like with real gold, if you don't actualy 'own' it, you just own a record in a database that says you do. Not your keys, not your crypto!
+    </p>
         <br /><br /><br /><br /><br /><br />
         </div>
       </div>
